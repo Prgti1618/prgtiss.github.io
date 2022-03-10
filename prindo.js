@@ -1,6 +1,7 @@
 
 
 
+
 function oneAnim(){
    var my_static_element = document.querySelector(".naming");
    let classesToremove = [ 'two_anim', 'three_anim', 'four_anim', 'five_anim', 'six_anim', 'seven_anim', 'eight_anim', 'nine_anim', 'ten_anim', 'eleven_anim', 'twelve_anim', 'thirteen_anim', 'fourteen_anim', 'fifteen_anim' ];
@@ -246,3 +247,61 @@ function mytwoFunction(){
 document.getElementById("sidenavid").style.display = "none";
 }
 }
+
+function showTerms(){
+const terms = document.querySelector(".terms_bottom");
+const privacy = document.querySelector(".privacy_bottom");
+const contact = document.querySelector(".contact_bottom");
+
+const termslist = document.querySelector(".termsli");
+if(terms.style.display ==="none"){
+  terms.style.display ="block";
+  privacy.style.display ="none";
+  contact.style.display ="none";
+  termslist.style.color = "#db4a39";
+ 
+}else{
+  terms.style.display ="none";
+  termslist.style.color = "inherit";
+
+}
+}
+
+function showPrivacy(){
+  const terms = document.querySelector(".terms_bottom");
+  const privacy = document.querySelector(".privacy_bottom");
+  const contact = document.querySelector(".contact_bottom");
+  const privacylist = document.querySelector(".privacyli");
+
+  if(privacy.style.display ==="none"){
+    privacy.style.display ="block";
+    terms.style.display ="none";
+    contact.style.display ="none";
+   
+    privacylist.style.color = "#db4a39";
+  }else{
+    privacy.style.display ="none";
+    privacylist.style.color = "inherit";
+   
+  }
+  }
+
+  function showContact(){
+    const terms = document.querySelector(".terms_bottom");
+    const privacy = document.querySelector(".privacy_bottom");
+    const contact = document.querySelector(".contact_bottom");
+    const contactlist = document.querySelector(".contactli");
+    if(contact.style.display ==="none"){
+      contact.style.display ="block";
+      privacy.style.display ="none";
+      terms.style.display ="none";
+     
+      contactlist.style.color = "#db4a39";
+    }else{
+      contact.style.display ="none";
+      contactlist.style.color = "inherit";
+     
+      
+    
+    }
+    }
