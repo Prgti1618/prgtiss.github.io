@@ -46,6 +46,10 @@ footer .navbar_bottom .mali:active{
     display:none;
     margin-top: 30px;
 }
+.ads{
+    margin-left: 50vmin;
+    margin-right: 50vmin;  
+}
 .privacy_bottom{
     text-align: center;
     margin-left: 50vmin;
@@ -61,9 +65,6 @@ footer .navbar_bottom .mali:active{
     color: rgb(196, 196, 196);
     display:none;
     margin-top: 30px;
-    overflow: hidden;
-    display: inline-block;
-word-break: break-word;
 }
 
 
@@ -1130,6 +1131,10 @@ button.anim_btn:focus{
         margin-right:40vmin;
 
     }
+    .ads{
+        width: 100%;
+        margin-right:40vmin;  
+    }
     .copyright_info p{
        margin-left: -250px;
     } 
@@ -1214,5 +1219,10 @@ button.anim_btn:focus{
     .contact_bottom{
         margin-left: 10vmin;
     margin-right: 10vmin; 
+    }
+    .ads{
+        width: 100%;
+        margin-right:0vmin;  
+        margin-left: 0vmin;
     }
    }  
