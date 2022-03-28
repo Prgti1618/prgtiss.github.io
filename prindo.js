@@ -7,7 +7,6 @@ function oneAnim(){
    let classesToremove = [ 'two_anim', 'three_anim', 'four_anim', 'five_anim', 'six_anim', 'seven_anim', 'eight_anim', 'nine_anim', 'ten_anim', 'eleven_anim', 'twelve_anim', 'thirteen_anim', 'fourteen_anim', 'fifteen_anim' ];
    my_static_element.classList.remove(...classesToremove);
    my_static_element.classList.add("one_anim");
-   // my_box_element = document.querySelector(".mybox");
    var codesnippet_box_element1 = document.querySelector(".codesnippet_box1");
 
    const nodeList = document.querySelectorAll(".mybox");
@@ -223,13 +222,7 @@ function fifteenAnim(){
      nodeList[i].style.display = "none";
    }
          codesnippet_box_element15.style.display = "block";
-   
-
 }
-
-
-
-    // function show_hidden(){
     
     function myFunction() {
   var x = document.getElementById("sidenavid");
