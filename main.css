@@ -130,6 +130,9 @@ code pre{
     float: left;
     text-align: center;
 }
+video {
+    pointer-events: none;
+}
 .page-left .btn1{
 color: white;
 padding: 20px;
