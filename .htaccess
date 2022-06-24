@@ -1,1 +1,3 @@
-
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.prgtifreecoder\.com$
+RewriteRule ^/?$ "http\:\/\/prgtifreecoder\.com\/" [R=301,L]
