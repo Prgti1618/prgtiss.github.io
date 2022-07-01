@@ -1,0 +1,42 @@
+/* *, *:before, *:after {
+    box-sizing: border-box;
+  } */
+  
+  /* pre[class*="language-"] {
+    position:relative;
+    overflow: auto;
+    margin:5px 0;
+    padding:1.75rem 0 1.75rem 1rem;
+    border-radius:10px;
+  } */
+  pre{
+    position:relative;
+    overflow: auto;
+    padding: 0;
+    border-radius:10px;
+    background-color: rgb(57, 90, 91);
+    color: white;
+    height: 200px;
+  }
+  
+  button{
+    position:absolute;
+    top:5px;
+    right:5px;
+    font-size:.9rem;
+    padding:.35rem;
+    background-color:#138488;
+    color:white;
+    border:ridge 1px #0e747b;
+    border-radius:5px;
+    text-shadow:#129b96 0 0 2px;
+  }
+  
+  button:hover{
+    cursor:pointer;
+     background-color:#bcbabb;
+     color: black;
+  }
+  .card-text pre{
+    height: 100px;
+  }
