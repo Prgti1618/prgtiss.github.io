@@ -3,4 +3,3 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://prgtifreecoder.com/sitemap%20(1).xml
-Sitemap: https://prgtifreecoder.com/sitemap.xml
