@@ -271,4 +271,22 @@
        <video:live>no</video:live>
      </video:video>
    </url>
+  <url>
+     <loc>https://prgtifreecoder.com/diya.html</loc>
+     <video:video>
+       <video:title>Clay oil lamp animation</video:title>
+       <video:description> Clay oil lamp animation by using html svg and css. free source code is also given.</video:description>
+       <video:player_loc allow_embed="yes">
+          https://youtu.be/FPbKsJfkQwo
+</video:player_loc>
+ <video:thumbnail_loc>https://i.ytimg.com/vi/FPbKsJfkQwo/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=\u0026rs=AOn4CLBfKVo7SKtXiW6HTC7YFpna1n1G3Q</video:thumbnail_loc>            
+             <video:family_friendly>yes</video:family_friendly>
+          <video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder
+       </video:uploader>
+<video:uploader
+         info="https://prgtifreecoder.com">PRGTI free coder source  codes
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+   </url>       
 </urlset>
