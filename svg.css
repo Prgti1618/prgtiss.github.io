@@ -41,17 +41,17 @@
     height: 100px;
   }
 .
-.card-body a{
+a.get-code{
   text-shadow: 1px 1px white, -1px -1px #444;
   font-size: 25px;
  text-decoration: none;
 font-family: 'Merienda One', cursive;
 }
-.card-body a:hover{
+a.get-code:hover{
     color:crimson;
     text-decoration:none;
 }
-.card-body a:active{
+a.get-code:active{
     box-shadow:none;
     color:grey;
 }
