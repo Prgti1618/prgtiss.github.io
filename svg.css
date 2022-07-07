@@ -40,7 +40,7 @@
   .card-text pre{
     height: 100px;
   }
-.get-code{
+.card-body a{
     padding:20px 30px;
     background-color:teal;
     color:white;
