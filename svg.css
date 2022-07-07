@@ -55,3 +55,7 @@
     color:aqua;
     text-decoration:none;
 }
+.get-code:active{
+    box-shadow:none;
+    color:white;
+}
