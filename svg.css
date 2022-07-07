@@ -40,30 +40,20 @@
   .card-text pre{
     height: 100px;
   }
-.card-body a{
-     text-shadow: 0 1px 0 rgb(166, 199, 196),
-               0 2px 0 rgb(166, 199, 196),
-               0 3px 0 rgb(166, 199, 196),
-               0 4px 0 rgb(166, 199, 196),
-               0 5px 0 rgb(166, 199, 196),
-               0 6px 1px rgba(0, 255, 221, 0.1),
-               0 0 5px rgba(0, 255, 221, 0.1),
-               0 1px 3px rgba(0, 255, 221, 0.1),
-               0 3px 5px rgba(0, 255, 221, 0.1),
-               0 5px 10px rgba(0, 255, 221, 0.1),
-               0 10px 10px rgba(0, 255, 221, 0.1),
-               0 20px 20px rgba(0, 255, 221, 0.1);
+.
+.get-code{
+  text-shadow: 1px 1px white, -1px -1px #444;
   font-size: 25px;
  text-decoration: none;
 font-family: 'Merienda One', cursive;
 }
 .get-code:hover{
-    color:aqua;
+    color:crimson;
     text-decoration:none;
 }
 .get-code:active{
     box-shadow:none;
-    color:white;
+    color:grey;
 }
 .collapse{
     margin-top:100px;
