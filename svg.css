@@ -48,7 +48,7 @@
     border-radius: 15px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    margin:170px;
+    margin-top:70px;
     z-index:2;
 }
 .get-code:hover{
@@ -58,4 +58,7 @@
 .get-code:active{
     box-shadow:none;
     color:white;
+}
+.collapse{
+    margin-top:100px;
 }
