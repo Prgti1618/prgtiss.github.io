@@ -81,7 +81,7 @@
       Here is HTML code and little bit of Javascript code(at the end). Create a new page in any html code editor, (I'm using visual studio code, trust me it's best for beginners.) and you can copy-paste this code in your html page, but it's always better to write down by yourself to learn css. 
     </p></div>    
         <code>
-<pre class="container">
+<pre class="">
 <xmp>
     <body class="raininginwindow">
         <div class="container-fluid">
@@ -190,7 +190,7 @@
 </div>
 
         <code>
- <pre class="container">
+ <pre class="">
     .raininginwindow{
         margin: 0;
         padding: 0;
@@ -478,7 +478,1654 @@
 </code>
         <br><br>
     </div>
+ <br><br>
+<!--   hot air balloon animation   -->
+ <div class="container-fluid">
+        <div class="youtubevideoin">
+        <iframe src="https://www.youtube.com/embed/xGRJIu8E3lY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            </div>
+        <h1 class="text-center">hot air balloon animation by
+            <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>
+        </h1>
+        <p class="text-center">here is a beautiful animation of blinking stars by using only html and css. </p>
+        <br><br>
+        <code>
+    <pre class="">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;    
+ &lt;head&gt;     
+&lt;meta charset="UTF-8"&gt; 
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;       
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;        
+&lt;title&gt;Hot air balloon&lt;/title&gt;
+&lt;meta name="viewport" content="initial-scale=1, maximum-scale=1"&gt;       
+&lt;!-- font awesome link --&gt;
+ &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
 
+&lt;!-- bootstrap --&gt;
+&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"&gt;
+&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="style.css"&gt;
+
+&lt;/head&gt;
+
+&lt;body class="body_one"&gt;
+&lt;div class="my_first container-fluid"&gt;
+
+   &lt;!-- ballon container --&gt;
+   &lt;div class="ballon_container"&gt;
+   &lt;div class="ballon"&gt;
+     &lt;span class="ball_one"&gt;&lt;/span&gt;
+      &lt;span class="ball_two"&gt;
+        &lt;i class="fa fa-shopping-basket" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/span&gt; 
+   &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="ballon_container2"&gt;
+  &lt;div class="ballon"&gt;
+  &lt;span class="ball_one"&gt;&lt;/span&gt;
+       &lt;span class="ball_two"&gt;
+         &lt;i class="fa fa-shopping-basket" aria-hidden="true"&gt;&lt;/i&gt;
+
+       &lt;/span&gt; 
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="ballon_container3"&gt;
+    &lt;div class="ballon"&gt;
+      &lt;span class="ball_one"&gt;&lt;/span&gt;
+       &lt;span class="ball_two"&gt;
+       &lt;i class="fa fa-shopping-basket" aria-hidden="true"&gt;&lt;/i&gt;
+       &lt;/span&gt; 
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+    </pre>
+</code>
+        <br><br>
+
+        <code>
+    <pre class="">
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .body_one {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: url("images/scenetwo.jpg");
+    background-size: cover;
+  }
+  
+  .body_one .my_first {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+ }
+  
+  .ballon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    top: 20px;
+    min-height: 16em;
+    min-width: 16em;
+    border-radius: 150%;
+    border-bottom-left-radius: 425%;
+    border-bottom-right-radius: 425%;
+    border-top-left-radius: 425%;
+    border-top-right-radius: 50%;
+    background: linear-gradient(5deg, #9cc9cc, #014a92);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+    z-index: 2;
+  }
+  
+ .ballon::before {
+   position: absolute;
+    top: -25px;
+    content: "";
+    min-height: 18em;
+    min-width: 10em;
+    background-color: #9cc9cc;
+    border-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    left: 60px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  
+  .ballon::after {
+    position: absolute;
+    top: -37px;
+    content: "";
+    min-height: 19em;
+    min-width: 5em;
+    background: linear-gradient(10deg, #014a92, #9cc9cc);
+    border-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    left: 110px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  
+  .ballon .ball_one {
+    position: absolute;
+    bottom: 60px;
+    top: -8px;
+    left: 204px;
+    right: 450px;
+    height: 40px;
+    width: 80px;
+    border: 3px;
+    background-color: #0e476b;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: 2;
+    border-radius: 50%/100px 100px 0 0;
+  }
+          
+  .ballon .ball_two {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+    position: relative;
+    top: -202px;
+    left: 300px;
+    font-size: 350%;
+    color: #0d3e5a;
+    z-index: 1;
+  }
+  
+  .ballon_container {
+    -webkit-animation: balloonmove 5s ease-in-out infinite;
+            animation: balloonmove 5s ease-in-out infinite;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    z-index: 4;
+  }
+  
+  .ballon_container2 {
+   -webkit-animation: balloonmoveone 6s ease-in-out infinite;
+            animation: balloonmoveone 6s ease-in-out infinite;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+  }
+  
+  .ballon_container2 .ballon {
+    background: linear-gradient(5deg, #c49ccc, #92016e);
+  }
+  
+  .ballon_container2 .ballon::before {
+    position: absolute;
+    top: -25px;
+    content: "";
+    min-height: 18em;
+    min-width: 10em;
+    background-color: #c49ccc;
+    border-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+   left: 60px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  
+  .ballon_container2 .ballon::after {
+    position: absolute;
+    top: -37px;
+    content: "";
+    min-height: 19em;
+    min-width: 5em;
+    background: linear-gradient(10deg, #92016e, #c49ccc);
+    border-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    left: 110px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  
+  .ballon_container2 .ball_one {
+    background-color: #5f0c46;
+  }
+  
+  .ballon_container2 .ball_two {
+            color: #5f0c46;
+          }
+  
+  .ballon_container3 {
+    -webkit-animation: balloonmovetwo 7s ease infinite;
+            animation: balloonmovetwo 7s ease infinite;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+  }
+  
+  .ballon_container3 .ballon {
+    background: linear-gradient(5deg, #f1c59b, #854101);
+  }
+  
+  .ballon_container3 .ballon::before {
+    position: absolute;
+    top: -25px;
+    content: "";
+    min-height: 18em;
+    min-width: 10em;
+    background-color: #f1c59b;
+    border-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    left: 60px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  
+  .ballon_container3 .ballon::after {
+    position: absolute;
+    top: -37px;
+    content: "";
+    min-height: 19em;
+    min-width: 5em;
+    background: linear-gradient(10deg, #854101, #f1c59b);
+    border-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    left: 110px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  
+  .ballon_container3 .ball_one {
+    background-color: #854101;
+  }
+  
+  .ballon_container3 .ball_two {
+    color: #854101;
+  }
+  
+  @-webkit-keyframes balloonmove {
+    0%, 100% {
+      -webkit-transform: translateY(20%);
+              transform: translateY(20%);
+    }
+    50% {
+      -webkit-transform: translateY(10%);
+              transform: translateY(10%);
+    }
+  }
+  
+  @keyframes balloonmove {
+    0%, 100% {
+      -webkit-transform: translateY(20%);
+                 transform: translateY(20%);
+    }
+    50% {
+      -webkit-transform: translateY(10%);
+              transform: translateY(10%);
+    }
+  }
+          
+     @-webkit-keyframes balloonmoveone {
+    0%, 100% {
+      -webkit-transform: translateY(20%) scale(70%);
+              transform: translateY(20%) scale(70%);
+    }
+    50% {
+      -webkit-transform: translateY(10%) scale(70%);
+              transform: translateY(10%) scale(70%);
+    }
+  }
+          
+     @keyframes balloonmoveone {
+        0%, 100% {
+          -webkit-transform: translateY(20%) scale(70%);
+                  transform: translateY(20%) scale(70%);
+        }
+        50% {
+          -webkit-transform: translateY(10%) scale(70%);
+                  transform: translateY(10%) scale(70%);
+    }
+  }
+  
+  @-webkit-keyframes balloonmovetwo {
+    0%, 100% {
+      -webkit-transform: translateY(20%) scale(50%);
+              transform: translateY(20%) scale(50%);
+    }
+    50% {
+      -webkit-transform: translateY(10%) scale(50%);
+              transform: translateY(10%) scale(50%);
+    }
+  }
+  
+  @keyframes balloonmovetwo {
+    0%, 100% {
+      -webkit-transform: translateY(20%) scale(50%);
+              transform: translateY(20%) scale(50%);
+    }
+    50% {
+      -webkit-transform: translateY(10%) scale(50%);
+              transform: translateY(10%) scale(50%);
+    }
+  }
+
+    </pre>
+</code>
+<div class="youtubevideoin">
+<iframe src="https://www.youtube.com/embed/z_Ekg0phOM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    </div>
+  <br><br>
+    
+<!--   plate and glass lid animation  
+     -->
+ <div class="container-fluid m-0 p-0">
+        <div class="youtubevideoin">
+            <video class="inpagevideos" controls controlsList="nodownload" >
+                <source src="glasslid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>   
+            </div>
+        <h1 class="text-center">Plate and Glasslid animation by using html and css.
+        </h1>
+        <p class="text-center">here is a beautiful animation of Plate and Glass lid by             <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+ <code>
+<pre class="">
+<xmp>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    </head>
+    <body class="body_name">
+        <div class="container-fluid">
+            <div class="lid"></div>
+            <img src="images/cake1.png" alt="">
+            <div class="plate"></div>
+        </div>
+      
+    </body>
+    </html>    
+</xmp>
+</pre>
+ </code>       
+<br><br>
+
+<code>
+<pre class="">
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .container-fluid{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+    }
+    img{
+        width: 250px;
+        height: 150px;
+        position: relative;
+        top: 90px;
+        left: 560px;
+        z-index: 2;
+    }
+    
+    .plate::before{
+        content: "";
+        position:absolute;
+        z-index: 1;
+        top:440px;
+        right: 480px;
+        width: 400px;
+        height: 150px;
+        margin: 0 auto;
+        border-bottom: 32px solid rgb(173, 55, 69);
+        border-radius: 100%;
+        transform: rotateX(50deg);
+        background-color: rgb(209,181,181);
+        box-shadow:3px 35px 5px 0px rgba(49,16,16,0.75) inset ;
+    }
+    .lid{
+        width: 380px;
+        height: 300px;
+        border: 2px solid transparent;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        position: relative;
+        top: 355px;
+        left: 480px;
+        z-index: 3;
+        background: radial-gradient(130% 230px at 50% -30px, rgba(34,32,32,0.4)95%, transparent 95%) no-repeat;
+        transition: all ease-in-out 2s;
+    }
+    .lid::before{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: -40px;
+        left: 45%;
+        content: '';
+        z-index: 3;
+        background: radial-gradient(circle at 100px 100px, rgb(231,196,196), rgb(39,16,16));
+    }
+    .lid::after{
+        width: 350px;
+        height: 170px;
+        border-top-left-radius: 300px;
+        border-top-right-radius: 300px;
+        background: white;
+        background: linear-gradient(90deg, rgba(255,255,255,0.3113620448179272) 23%, rgba(0,0,0,0.2945553221288515) 64%);
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        content: '';
+        z-index: 0;
+        filter: blur(10px);
+    }
+    
+    .lid:hover{
+        transform: translateY(-240px) translateX(30px) rotateZ(50deg);
+        transition: all ease-in-out 2s;
+    }    
+</pre>    
+</code>
+<br><br>
+
+<div class="youtubevideoin">
+    <iframe src="https://www.youtube.com/embed/zb1ZFtouYv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<br><br>
+<!--  mooon and clouds animation   
+     -->
+    <div class="container-fluid">
+        <div class="youtubevideoin">
+            <video class="inpagevideos" controls controlsList="nodownload" >
+                <source src="clouds.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+        <h1 class="text-center">Moon and Clouds animation by using HTML, CSS.
+        </h1>
+        <p class="text-center">Moon and Clouds animation by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+<code>
+<pre class="">
+<xmp>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="pr0gti">
+     
+    <div class="sky">
+    <div class="moon"></div>    
+    <div class="cloud1">
+        <span class="clo1"></span>
+        <span class="clo2"></span>
+        <span class="clo3"></span>
+        <span class="clo4"></span>
+        <span class="clo5"></span>
+    </div>
+    <div class="cloud2">
+        <span class="clo1"></span>
+        <span class="clo2"></span>
+        <span class="clo3"></span>
+        <span class="clo4"></span>
+        <span class="clo5"></span>
+    </div>
+    </div>    
+       
+    </body>
+    </html>
+</xmp>
+</pre>
+</code>
+<br><br>
+<code>
+<pre class="">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: all ease 0.5s;
+    }
+    html{
+        overflow: hidden;
+    }
+    .pr0gti{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 6, 48);
+    overflow: hidden;
+    }
+    .pr0gti .sky{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    }
+    .pr0gti .sky .moon{
+      position:absolute;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      background: rgb(246,246,246);
+      background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(255,255,255,0) 53%);
+      transform: rotate(50deg);
+      
+    }
+    .cloud1{
+     position: absolute;
+     top: 30%;
+     left:5%;
+     z-index: 2;
+     z-index: 5;
+     opacity: .8;
+     animation: cloudjump 8s ease-in-out infinite;
+    }
+    .cloud2{
+      position: absolute;
+      top: 80%;
+      right:50%;
+      z-index: 2;
+      z-index: 5;  
+      opacity: .8;
+      animation: cloudjump 8s ease-in-out infinite .5s;
+    
+    }
+    .cloud1 .clo1{
+     position: absolute;
+     left: 0px;
+     width: 200px;
+     height:200px;
+      border-radius: 50%;
+      opacity: 1;
+      background-color: rgb(124, 124, 133);
+      box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+    }
+    .cloud1 .clo2{
+      position: absolute;
+      left:450px;
+      top: 0px;
+      width: 150px;
+      height:150px;
+       border-radius: 50%;
+       opacity: 1;
+       background-color: rgb(124, 124, 133);
+       box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+     }
+     .cloud1 .clo3{
+      position: absolute;
+      left: 100px;
+      top: -100px;
+      width: 300px;
+      height:300px;
+       border-radius: 50%;
+       opacity: 1;
+       background-color: rgb(124, 124, 133);
+       box-shadow: rgba(18, 8, 8, 0.45) 0px -60px 36px -28px inset;
+     }
+     .cloud1 .clo4{
+      position: absolute;
+      top: 50px;
+      left: 200px;
+      width: 200px;
+      height:200px;
+       border-radius: 50%;
+       opacity: 1;
+       background-color: rgb(124, 124, 133);
+       box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+     }
+     .cloud1 .clo5{
+      position: absolute;
+      left: 300px;
+      width: 200px;
+      height:200px;
+       border-radius: 50%;
+       opacity: 1;
+       background-color: rgb(124, 124, 133);
+       box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+    
+     }
+    
+     .cloud2 .clo1{
+      position: absolute;
+      left: 0px;
+      width: 200px;
+      height:200px;
+       border-radius: 50%;
+       opacity: 1;
+       background-color: rgb(124, 124, 133);
+       box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+     }
+     .cloud2 .clo2{
+       position: absolute;
+       left:450px;
+       top: 0px;
+       width: 150px;
+       height:150px;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: rgb(124, 124, 133);
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+     
+      }
+      .cloud2 .clo3{
+       position: absolute;
+       left: 100px;
+       top: -100px;
+       width: 300px;
+       height:300px;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: rgb(124, 124, 133);
+        box-shadow: rgba(18, 8, 8, 0.45) 0px -60px 36px -28px inset;
+      }
+      .cloud2 .clo4{
+       position: absolute;
+       top: 50px;
+       left: 200px;
+       width: 200px;
+       height:200px;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: rgb(124, 124, 133);
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+      }
+      .cloud2 .clo5{
+       position: absolute;
+       left: 300px;
+       width: 200px;
+       height:200px;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: rgb(124, 124, 133);
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -60px 36px -28px inset;
+     
+      }
+     @keyframes cloudjump{
+       0%{
+    
+       }
+       50%{
+         transform: translateY(-100px);
+       }
+     }
+</pre>
+</code>
+<br><br>
+<div class="youtubevideoin">
+<iframe src="https://www.youtube.com/embed/XcEkaCDUjpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<br><br>
+<!--     hot tea cup animation
+ -->
+    <div class="container-fluid">
+        <div class="youtubevideoin">
+            <video class="inpagevideos" controls controlsList="nodownload" >
+                <source src="cup.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>   
+            </div>
+        <h1 class="text-center">Cup of hot chocolate animation by using html and css.
+        </h1>
+        <p class="text-center">Cup of hot chocolate animation by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+ <code>
+<pre class="">
+<xmp>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          </head>
+    <body>
+    <div class="container-fluid">
+        <div class="bowl"></div>
+        <div class="tea"></div>
+        <div class="coffee-shadow"></div>
+        <div class="handle"></div>
+        <div class="teaflow"></div>
+        <div class="steam1"></div>
+        <div class="steam2"></div>
+        <div class="steam3"></div>
+        <div class="steam4"></div>
+    </div>
+            
+    </body>
+    </html>    
+</xmp>
+</pre>
+</code>    
+<br><br>
+<code>
+ <pre class="">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    body{
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background:url("images/table144.jpg");
+        background-position: bottom;
+        background-size: contain;
+        background-clip: content-box;
+    }
+    .container-fluid{
+        width: 100vw;
+        height: 55vh;
+        background: linear-gradient(180deg, rgb(90, 87, 87) 44%, rgb(22, 66, 13) 87%);
+        z-index: 0;
+    }
+    .bowl{
+        width: 300px;
+        height:280px;
+        background-color: blue;
+        border-bottom-left-radius:200px ;
+        border-bottom-right-radius: 200px;
+        border-top-left-radius:150px;
+        border-top-right-radius:150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        background: linear-gradient(180deg, rgba(195,37,37,1) 18%, rgba(89,17,17,1) 100%);
+       
+    }
+    .bowl::before{
+            content: '';
+            position:absolute;
+            z-index: 1;
+            top: -3px;
+            left: 42px;
+            height: 65px;
+            width: 215px;
+            margin: 0 auto;
+            border-bottom: 10px solid rgb(195,37,37,1);
+            background: radial-gradient(circle, rgb(144, 45, 45) 61%, rgba(60,38,38,1) 100%);
+            border-radius: 100%;      
+    }
+    .bowl::after{
+        content: '';
+        position:absolute;
+        z-index: 0;
+        top: 57px;
+        left: 77px;
+        height: 40px;
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 100%; 
+        background-color: rgba(228, 236, 244, .2);    
+        overflow: hidden; 
+    }
+    .tea{
+        position:relative;
+        z-index: 3;
+        margin: 0 auto;
+       border-radius: 200%;
+       animation:pouringtea 8s ease-in-out 5s ;
+       animation-fill-mode: forwards;
+       background: linear-gradient(90deg, rgba(168,74,39,0.958420868347339) 61%, rgba(205,153,121,0.927608543417367) 100%);
+    }
+    
+    .coffee-shadow{
+        position:absolute;
+        top:415px;
+        left:650px;
+        background:#393c41; 
+        height:30px;
+        width: 65px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 68px #4b453c;
+      }
+    
+      .window{
+        width: 400px;
+        height: 300px;
+        background-color: #393c41;
+        border: 50px groove rgb(75, 39, 13) ;
+      }
+    
+     
+      @keyframes pouringtea{  
+        20%{
+            top: 246px;
+            left: 1px;
+            height: 5px;
+            width: 90px;
+        }
+        40%{
+            top: 237px;
+            left: 1px;
+            height: 15px;
+            width: 120px;
+    
+        }
+    
+        60%{
+            top: 232px;
+            left: 1px;
+            height: 20px;
+            width: 150px;
+        }
+        80%{
+            top: 217px;
+            left: 0px;
+            height: 34px;
+            width: 190px;
+        }
+        100%{
+            top: 201px;
+            left: 0px;
+            height: 50px;
+            width: 210px;
+        }
+        
+    }  
+    
+    
+    .teaflow{
+        position:absolute;
+        top: -50px;
+        left: 50%;
+        width: 15px;
+        height: 30px;
+        background: linear-gradient(90deg, rgba(147,69,40,0.758420868347339) 58%, rgba(205,153,121,0.727608543417367) 83%);
+        animation: teaflow1 2.8s linear 3s,
+        teaflow2 3.5s linear 6s,
+        teaflow3 1.6s linear 9.7s,
+        teaflow4 1.8s linear 11.4s;
+        z-index: 3;
+    }
+    .handle{
+      position:absolute;
+      right:460px;
+      top:240px;
+      width:65px;
+      height: 110px;
+      transform:rotate(4deg);
+      background-color:transparent;
+      border-radius: 10% 50% 130px 0;
+      border: 30px solid rgb(160, 29, 29);
+    }
+    .handle::before{
+        content: '';
+        position:absolute;
+      right:-10px;
+      top:0px;
+      width:65px;
+      height: 100px;
+      transform:rotate(-15deg);
+      background-color:transparent;
+      border-radius: 10% 50% 130px 0;
+      border-right: 10px solid rgb(122, 19, 19);
+    }
+    
+    .handle::after{
+        content: '';
+        position:absolute;
+      right:-24px;
+      top:-30px;
+      width:115px;
+      height: 120px;
+      background-color:transparent;
+      border-radius: 10% 50% 130px 0;
+      border-top: 10px solid rgba(253, 253, 253, 0.2);
+    }
+    .steam1{
+        position:absolute;
+        right:600px;
+        top:150px;
+        width:85px;
+        height: 100px;
+        transform:rotate(-15deg);
+        background-color:transparent;
+        border-radius: 10% 50% 130px 0px;
+        border-right: 30px solid rgba(232, 225, 225, 0.4);
+        filter:blur(15px);
+        z-index: 4;
+        animation: steaming1 6s linear infinite 10s;
+        opacity: 0;
+    }
+    @keyframes steaming1{
+    
+        10%{
+            opacity: 1; 
+        }
+       
+        100%{
+            transform: translateY(-200px) translateX(20px);
+            opacity: 0;
+           filter: blur(15px);
+        }
+    }
+    @keyframes steaming2{
+       
+        10%{
+            opacity: 1; 
+        }
+        100%{
+            transform: translateY(-200px) translateX(-20px);
+            opacity: 0;
+            filter: blur(15px);
+        }
+    }
+    .steam2{
+        position:absolute;
+        right:640px;
+        top:150px;
+        width:85px;
+        height: 100px;
+        transform:rotate(20deg);
+        background-color:transparent;
+        border-radius: 50% 10% 0px 130px;
+        border-left: 30px solid rgba(232, 225, 225, 0.4);
+        filter:blur(15px);
+        z-index: 4;
+        animation: steaming2 6s linear infinite 12s;
+       opacity: 0;
+    }
+    .steam3{
+        position:absolute;
+        right:660px;
+        top:150px;
+        width:85px;
+        height: 100px;
+        transform:rotate(-15deg);
+        background-color:transparent;
+        border-radius: 10% 50% 130px 0px;
+        border-right: 30px solid rgba(232, 225, 225, 0.4);
+        filter:blur(15px);
+        z-index: 4;
+        animation: steaming2 6s linear infinite 13s;
+        opacity: 0;
+    }
+    .steam4{
+        position:absolute;
+        right:620px;
+        top:150px;
+        width:85px;
+        height: 100px;
+        transform:rotate(20deg);
+        background-color:transparent;
+        border-radius: 50% 10% 0px 130px;
+        border-left: 30px solid rgba(232, 225, 225, 0.4);
+        filter:blur(15px);
+        z-index: 4;
+        animation: steaming1 6s linear infinite 14s;
+       opacity: 0;
+    }
+    
+    @keyframes teaflow1{
+        10%{
+            height:300px;  
+        }
+       
+    100%{
+            height:300px; 
+        }
+        
+    }
+    @keyframes teaflow2{
+        10%{
+            height:300px;  
+        }
+       
+    100%{
+            height:300px; 
+        }
+        
+    }
+    @keyframes teaflow3{
+        10%{
+            height:295px;  
+        }
+       
+    100%{
+            height:295px; 
+        }
+        
+    }
+    @keyframes teaflow4{
+        10%{
+            height:290px;  
+    
+        }
+       
+    100%{
+            height:290px; 
+     }
+        }
+  
+ </pre>   
+</code>
+<br><br>
+
+<div class="youtubevideoin">
+    <iframe src="https://www.youtube.com/embed/Wlq5n19nJlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<br><br>
+<!--     clay oil lamp animation
+     -->
+   <div class="container-fluid">
+        <div class="youtubevideoin">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FPbKsJfkQwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h1 class="text-center">Clay lamp animation by using html and css and svg.
+        </h1>
+        <p class="text-center">Clay lamp animation by <a
+                href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+        <code>
+<pre class="">
+<xmp>
+    <body class="body_one">
+        <svg  viewbox="-200 -50 1200 600" >
+            <defs>
+                <linearGradient id="Gradient1" x1="1" x2="0" y1="0" y2="1">
+                  <stop class="stop1" offset="40%" style="stop-color: rgb(171, 6, 6)"/>
+                  <stop class="stop2" offset="60%" style="  stop-color: #5d0303;"/>
+                  <stop class="stop3" offset="100%" style="stop-color: #280202;"/>
+                </linearGradient>  
+                <linearGradient id="Gradient2" x1="1" x2="0" y1="0" y2="1">
+                    <stop class="stop4" offset="40%" style="stop-color: rgb(50, 43, 39)"/>
+                    <stop class="stop5" offset="60%" style="  stop-color: sienna;"/>
+                    <stop class="stop6" offset="100%" style="stop-color: sienna;"/>
+                  </linearGradient>  
+            </defs>
+        
+            <path d="M 222.3 276.1 C 269.992 277.097 292.7 317.4 312.6 332.9 C 418.183 563.33 772.421 549.119 832.307 331.907 C 864.8 149.2 79.17 264.917 222.3 275.1" stroke="brown" stroke-width="0" fill="url(#Gradient1)"/>
+              <path d="M 223.301 275.067 C 457.768 320.742 907.418 336.982 814.037 280.142" stroke-width="0" fill="rgb(171, 6, 6)"/> 
+              <path d="M 259.842 268.977 C 480.099 235.481 752.121 239.542 805.917 291.307 C 856.667 313.637 447.618 309.577 258.827 268.977" stroke=" #4d0000" stroke-width="3" fill=" #4d0000"/>
+             <path d="M 331.907 366.418 L 330.892 365.403" stroke="teal" stroke-width="0.3" fill="sienna"/> 
+             <path d="M 790.692 279.127 C 718.626 245.632 498.369 230.406 256.797 267.962 C 422.243 305.517 612.05 289.277 789.677 280.142" stroke="sienna" stroke-width="0" fill=" #4d0000"/> 
+             <path d="M 331.907 366.418" stroke="sienna" stroke-width="0.5" fill="sienna"/>
+             <path d="M 271.736 272.504 C 273.538 219.178 223.3013 218.5647 221.128 167.539 C 242.708 209.158 294.087 246.299 297.811 277.448 L 271.378 271.441 L 269.992 253.752 L 286.232 248.677 L 297.21 276.247" stroke="sienna" stroke-width="0" fill="url(#Gradient2)"/>
+        </svg>
+        
+        <div class="fire"></div>
+        </body>    
+</xmp>
+</pre>
+</code>
+        <br><br>
+        <code>
+ <pre class="">
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .body_one{
+            background: black;
+        }
+        svg{
+            z-index: 0;
+        }
+        .fire{
+           position:absolute; 
+           top: 20px;
+           left: 410px;
+           z-index: 1;
+           width: 140px;
+           height: 350px;
+           border-radius: 50%;
+            border-top-left-radius: 25%;
+            border-top-right-radius: 1925%;
+           background: radial-gradient(circle, rgba(255, 132, 0, 0.83) 0%, rgba(213,172,36,0) 69%);
+            filter: blur(3px);
+            transform:rotate(-45%);
+            animation: light 1.5s linear infinite;
+            
+        }
+        
+        .fire::before{
+            content: '';
+            position:absolute;
+            top: 100px;
+            left: 5px;
+            width:130px;
+            height: 250px;
+            border-radius: 50%;
+            border-top-right-radius: 0;
+            background: radial-gradient(circle, rgba(252, 182, 0, 0.83) 0%, rgba(213, 98, 36, 0) 69%);
+            z-index: 0;
+        }
+        .fire::after{
+            content: '';
+            position:absolute;
+            top: 170px;
+            left: 20px;
+            width:100px;
+            height:150px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(249, 249, 249, 0.83) 0%, rgba(255, 255, 255, 0) 69%);
+           filter: blur(6px);
+            z-index: 2;
+        }
+        
+        @keyframes light{
+            20%{
+                border-top-left-radius: 1925%;
+                border-top-right-radius: 25%;
+                transform:translateY(0px);
+            }
+            60%{
+                transform:translateY(-20px);
+            }
+            100%{
+                    border-top-left-radius: 25%;
+                    border-top-right-radius: 1925%;
+                    transform:translateY(0px);
+            }
+        }   
+  
+ </pre>   
+</code>
+        <br><br>
+    </div>
+<br><br>
+    
+<!--     good night animation
+     -->
+   <div class="container-fluid">
+        <div class="youtubevideoin">
+            <video class="inpagevideos" controls controlsList="nodownload" >
+                <source src="goodnight.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>   
+            </div>
+        <h1 class="text-center">Good Night card animation by using html and css.
+        </h1>
+        <p class="text-center">here is a Good Night card animation by<a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+<code>
+<pre class="">
+<xmp>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    
+    </head>
+    <body class="body_name">
+        <div class="container-fluid">
+            <div class="box"><div class="dust"></div>
+            <div class="moon">
+                <div class="mooneye"></div>
+                <div class="moonsmile"></div>
+            </div>
+        <div class="thread"></div>
+        <div class="star">
+            <div class="eyes">
+                <div class="eye1"></div>
+                <div class="eye2"></div>
+            </div>
+            <div class="smile"></div>
+        </div>
+        <p><span class="good">Good</span><br><span class="night">Night</span></p>
+        </div>
+        </div>
+    
+    <script>
+        setInterval(createdust, 110);
+        function createdust(){
+            const dustbox = document.querySelector('.box');
+            const dust_points = document.createElement('div');
+            dust_points.classList.add("dust");
+            dust_points.style.left = Math.random() * innerWidth + 'px';
+            dust_points.style.animationDuration = Math.random()/1.6*5+3+'s';
+            dust_points.style.animationDelay ='2s';
+            dustbox.appendChild(dust_points);
+            setTimeout(() =>{
+                dust_points.remove();   
+            },30000);
+    
+        }
+    </script>    
+    </body>
+    </html>    
+</xmp>
+</pre>    
+</code>        
+<br><br>
+
+<code>
+<pre class="">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        overflow: hidden;
+    }
+    .moon{
+        position: relative;
+        top: 50px;
+        left: 350px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255,255,255,1)48%, rgba(0,0,0,1)100%);   
+    }
+    .moon .mooneye{
+      position: absolute;
+      z-index: 99999;
+      top: 100px;
+      left: 45px;
+      height: 20px;
+      width: 35px;
+      margin: 0 auto;
+      border-bottom: 8px solid black;
+      border-radius: 100%;
+    }
+    .moon .moonsmile{
+        position: absolute;
+        z-index: 99999;
+        top: 150px;
+        left: 60px;
+        height:30px;
+        width:65px;
+        margin: 0 auto;
+        border-bottom: 8px solid black;
+        border-radius: 100%;   
+        transform: rotateZ(5deg);
+    }
+    .moon::before{
+        position: absolute;
+        left: 80px;
+        top: -30px;
+        content: '';
+        min-height: 300px;
+        min-width:300px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .thread{
+        position: relative;
+        top: -5px;
+        left: 500px;
+        width: 2px;
+        height: 250px;
+        background-color: white;
+    }
+    .star{
+        position: relative;
+        top: -72px;
+        left: 426px;
+        width: 150px;
+        height: 150px;
+        background: radial-gradient(circle, rgba(255,255,255,1)1%, rgba(0,0,0,1)100%);   
+        clip-path: polygon(50% 0%, 64% 28%, 98% 35%, 73% 55%, 81% 89%, 50% 70%, 19% 90%, 28% 55%, 2% 35%, 38% 29%);
+        z-index: 1;
+        animation: swings 3s ease-in-out infinite;
+    }
+    @keyframes swings{
+        0%{
+       transform: rotateZ(-20deg);
+       transform-origin: top;
+        }
+        50%{
+        transform: rotateZ(20deg);
+        transform-origin: top;
+        }
+        100%{
+        transform: rotateZ(-20deg);
+        transform-origin: top;
+        }
+    }
+    
+    .eyes .eye1{
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        left: 35px;
+        height: 10px;
+        width: 25px;
+        margin: 0 auto;
+        border-bottom: 4px solid rgb(31,24,24);
+        border-radius: 100%;
+    }
+    
+    .eyes .eye2{
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        left: 85px;
+        height: 10px;
+        width: 25px;
+        margin: 0 auto;
+        border-bottom: 4px solid rgb(31,24,24);
+        border-radius: 100%;
+    }
+    .smile{
+        position: absolute;
+        z-index: 1;
+        top: 75px;
+        left: 60px;
+        height: 5px;
+        width: 25px;
+        margin: 0 auto;
+        border-radius: 10%;
+        background-color: rgb(72,72,72);
+        animation: smilingstar 8s linear infinite;
+    }
+    @keyframes smilingstar {
+       0%{
+    
+       } 
+       40%{
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      border-bottom: none;
+      background-color: rgb(72,72,72);
+       }
+       50%{
+        height:5px;
+        width:25px;
+        margin: 0 auto;
+        border-radius: 30%;
+        background-color: rgb(72,72,72);
+       }
+    }
+    p .good{
+        position: absolute;
+        font-size: 150px;
+        color: #aaa9ad;
+        top: 50px;
+        left: 550px;
+        font-family: 'Merienda one', cursive;
+        text-shadow: 0 0 10px white;
+    }
+    p .night{
+        position: absolute;
+        font-size: 150px;
+        color: #ffffff;
+        top: 300px;
+        left: 650px;
+        font-family: 'Merienda one', cursive;
+        text-shadow: 0 0 10px white;
+    }
+    .box{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        overflow: hidden;
+    }
+    .dust{
+        position: absolute;
+        top: -20px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: white;
+        animation: fall linear forwards;
+        z-index: -1;
+        display: inline-flex;
+        background: radial-gradient(circle, rgba(255,255,255,1)1%, rgba(0,0,0,1)20%);   
+    }
+    @keyframes fall{
+        to{
+            transform: translateY(120vh) translateX(500px);
+        }
+    }
+</pre>    
+</code>
+<br><br>
+<div class="youtubevideoin">
+    <iframe src="https://www.youtube.com/embed/j2IvSLqLJ5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+</div>
+
+</div>
+<br><br>
+<!--  heart eyes smiley animation   
+     -->
+   <div class="container-fluid">
+        <div class="youtubevideoin">
+            <iframe src="https://www.youtube.com/embed/yB_Ngpo_664" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        <h1 class="text-center">hot air balloon animation by using HTML, CSS and JS.
+        </h1>
+        <p class="text-center">Heart-eyes falling animation by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+
+    <code>
+        <pre class="">
+<xmp>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Heart-eyes smiley falling animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+    </head>
+    <body>
+        <div class="box"> 
+          <div class="smile">
+            <div class="mouth">
+            </div>
+          </div>
+        </div>
+    </body>
+    
+    <!-- js for continuous falling animation -->
+    <script>
+    
+         setInterval(createSnowFlake, 110);
+        
+        function createSnowFlake(){
+        const snowbox = document.querySelector(".box");
+        
+        const snow_flake = document.createElement('div');
+        snow_flake.classList.add("smile");
+        const snow_flake1 = document.createElement('i');
+        snow_flake1.classList.add("fa");
+        snow_flake1.classList.add("fa-heart");
+        snow_flake.appendChild(snow_flake1);
+        const snow_flake2 = document.createElement('i');
+        snow_flake2.classList.add("fa");
+        snow_flake2.classList.add("fa-heart");
+        snow_flake.appendChild(snow_flake2);
+        const snow_flake3 = document.createElement('div');
+        snow_flake3.classList.add("mouth");
+        snow_flake.appendChild(snow_flake3);
+        snow_flake.style.left = Math.random() * innerWidth + 'px';
+        snow_flake.style.animationDuration = Math.random()/1.3 * 2 + 3 +'s';
+      
+        snow_flake.style.animationDelay = "2s";
+       
+        snowbox.appendChild(snow_flake, snow_flake1, snow_flake2, snow_flake3);
+        
+        setTimeout(() =>{
+          snow_flake.remove();
+        },30000);
+        }
+        
+        
+        </script>
+        
+    </html>               
+</xmp>
+        </pre>
+</code>
+<br><br>
+<code>
+    <pre class="">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+         .box{
+            width:100vw;
+            height: 100vh;  
+            position: relative;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        animation-fill-mode: forwards;
+        display:table;
+        background-color: green;
+        }
+        
+        .box .smile{
+            display: inline-flex;
+            animation:fall linear forwards;
+            width:100px;
+            height: 100px;
+            border-radius:50%;
+            box-shadow:inset -25px -25px 40px rgba(0,0,0,.5), rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            background-color: yellow;
+            color: #000;
+            position:absolute; 
+            top: -120px;
+            z-index: 99999;
+        }
+        .smile span{
+            position:absolute;
+            width: 25px;
+            height: 25px;
+            clip-path: ellipse(18% 40% at 50% 50%);
+            background-color: rgb(25, 32, 38);
+        }
+        span.eye1{
+        position:absolute;	
+        top: 30px;
+        left: 20px;
+        }
+        span.eye2{
+        position:absolute;	
+        top: 30px;
+        left: 50px;	
+        }
+        .mouth {
+            position:absolute;
+            z-index: 1;
+            top: 25px;
+            left: 18px;
+            height: 60px;
+            width: 65px;
+            margin: 0 auto;
+            border-bottom: 8px solid rgb(31, 24, 24);
+            border-radius: 100%;
+          }
+        @keyframes fall{
+            to{
+           transform: translateY(120vh);
+            }
+        }
+        
+        
+        .smile .fa-heart:nth-child(1){
+          color: rgb(188, 38, 80);
+          font-size: 30px;
+        }
+        .smile .fa-heart:nth-child(2){
+        color: rgb(188, 38, 80);
+        font-size: 30px;
+          }
+        .smile .fa-heart:nth-child(1){
+            position:absolute;	
+            top: 20px;
+            left: 10px;
+        }
+        
+        .smile .fa-heart:nth-child(2){
+        position:absolute;	
+        top: 20px;
+        left: 60px;	
+        }        
+    </pre>
+</code>
+
+    </div>   
+    
     <div class="credit">
         <a class="navbar-brand nameplate" style="color:white ;" href="index.html">PRGTI free coder</a>
         <div class="socialmedia">
