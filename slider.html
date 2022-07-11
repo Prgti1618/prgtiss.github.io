@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5WG2BCC');</script>
 <!-- End Google Tag Manager -->
-    <title>Testimonial slider</title>
+    <title>Website making tutorial</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="text-center">Testimonial slider for website by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
         <br><br>
 <code>
-<pre class="container">
+<pre class="">
 <xmp>
     <!DOCTYPE html>
     <html lang="en">
@@ -149,7 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </code> 
 <br><br>
 <code>
-<pre class="container">
+<pre class="">
     *{
         margin: 0;
         padding: 0;
@@ -471,6 +471,225 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }    
 </pre>    
 </code>    
+</div>
+<br><br>
+<!-- social media sharing icon
+ -->
+
+<div class="container-fluid">
+    <div class="youtubevideoin">
+        <iframe  src="https://www.youtube.com/embed/D0Uh-DOFSmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    <h1 class="text-center">Social media sharing section using html and css.
+    </h1>
+    <p class="text-center">Social media sharing section for website by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+    <br><br>
+<code>
+<pre class="">
+<xmp>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+       
+    <div id="social_icons">
+        <div class="social">
+            <div class="iconn"><a href="#"><i class="fab fa-facebook facebook"></i></a></div>
+            <div class="iconn"><a href="#"><i class="fab fa-twitter twitter"></i></a></div>
+            <div class="iconn"><a href="#"><i class="fab fa-instagram instagram"></i></a></div>
+            <div class="iconn"><a href="#"><i class="fab fa-google-plus plus"></i></a></div>
+            <div class="iconn"><a href="#"><i class="fab fa-youtube youtube"></i></a></div>
+        </div>
+    <div class="floor"></div>    
+    </div>
+    
+    </body>
+    </html>        
+</xmp>
+</pre>    
+</code>
+<br><br>
+
+<code>
+<pre class="">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(223, 192, 165);
+       
+    }
+    
+    #social_icons{
+        position:absolute;
+        bottom: 0;
+        width: 100%;
+        height: 9.4rem;
+        text-align: center;
+        padding: 20px 0 50px 0;
+        background-color: rgb(68, 51, 37);
+    }
+    
+    .floor{
+        width:100%;
+        height:30%;
+        position:absolute;
+        bottom: -44px;
+         background-color:rgb(169,130,95);
+        box-shadow: rgba(0,0,0,0.35) 0px -40px 26px -18px inset;    
+      z-index: -1;
+    }
+    #social_icons .iconn{
+       position: relative;
+       bottom:-60px;
+       width:5em;
+       height:7.2em;
+       padding:5px 10px;
+       margin:5px;
+       display: inline-block;
+       border-left: 19px inset rgb(169,130,95);
+       border-bottom: 10px inset rgb(169,130,95);
+       border-top-left-radius: 200px;
+       border-top-right-radius: 200px;
+       background-color: rgb(43,38,34);
+    }
+    #social_icons a{
+        color: rgb(96,77,77);
+        padding: 5px 5px;
+        margin: 5px 5px;
+        font-size:50px;
+        position: relative;
+        top: 65px;
+        text-shadow: 3px 0 1.3px rgb(179,147,147);
+    }
+    
+    .facebook:hover{
+     color: #3b5998;
+    }
+    .twitter:hover{
+     color: #38a;   
+    }
+    .instagram:hover{
+    color: #e1306c;    
+    }
+    .plus:hover{
+    color: #db4a39;
+    }
+    .youtube:hover{
+    color: red;
+    }
+    
+    @media only screen and (max-width:1200px){
+        #social_icons .iconn{
+            bottom: -61px;
+        }  
+    }
+    @media only screen and (max-width:998px){
+        #social_icons{
+            height: 7rem;
+        }
+        #social_icons .iconn{
+            width:4em;
+            height:6.2em;
+            bottom: -39px;
+        }  
+        #social_icons a{
+            font-size: 40px;
+            top: 60px;
+        } 
+        #social_icons .iconn{
+            border-left: 18px inset rgb(169,130,95);
+            border-bottom: 9px inset rgb(169,130,95); 
+        }
+    }
+    
+    @media only screen and (max-width:768px){
+        #social_icons{
+            height: 6rem;
+        }
+        #social_icons .iconn{
+            width:3em;
+            height:5.2em;
+            bottom: -40px;
+        } 
+        #social_icons a{
+            font-size: 35px;
+            top: 50px;
+            right: 10px;
+        } 
+        #social_icons .iconn{
+            border-left: 17px inset rgb(169,130,95);
+            border-bottom: 8px inset rgb(169,130,95); 
+        } 
+    }
+    
+    @media only screen and (max-width:645px){
+        #social_icons{
+            height: 5rem;
+        }
+        #social_icons .iconn{
+            width:2.5em;
+            height:4.7em;
+            bottom: -33px;
+        }  
+        #social_icons a{
+            font-size:30px;
+            top: 40px;
+        } 
+        #social_icons .iconn{
+            border-left: 16px inset rgb(169,130,95);
+            border-bottom: 7px inset rgb(169,130,95); 
+        }      
+    }
+    @media only screen and (max-width:576px){
+       
+        #social_icons .iconn{
+            width:2.3em;
+            height:4.4em;
+            bottom: -38px;
+        }  
+        #social_icons a{
+            font-size:30px;
+            top: 40px;
+            right: 10px;
+        } 
+        #social_icons .iconn{
+            border-left: 16px inset rgb(169,130,95);
+            border-bottom: 7px inset rgb(169,130,95); 
+        }       
+    }
+    
+    
+    @media only screen and (max-width:480px){
+        #social_icons .iconn{
+            width:1.5em;
+            height:3.7em;
+            bottom: -52px;
+        }  
+       
+        #social_icons a{
+            font-size:30px;
+            top: 30px;
+            right: 15px;
+        } 
+        #social_icons .iconn{
+            border-left: 13px inset rgb(169,130,95);
+            border-bottom: 5px inset rgb(169,130,95); 
+        }    
+    }
+</pre>    
+</code>
 </div>
 
 <div class="credit">
