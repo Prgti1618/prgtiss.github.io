@@ -336,7 +336,9 @@ margin: 20px;
 }
 .youtubevideoin{
     justify-content: center;
-    margin-left: 30vw;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
     width:500px;
     height:400px;
     
