@@ -336,8 +336,10 @@ margin: 20px;
 }
 .youtubevideoin{
     justify-content: center;
-    margin-left: 10px;
-    width:90vw;
+    margin-left: 20vw;
+    width:500px;
+    height:400px;
+    
    
 }
 .youtubevideoin .inpagevideos{
