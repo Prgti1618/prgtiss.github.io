@@ -336,7 +336,7 @@ margin: 20px;
 }
 .youtubevideoin{
     justify-content: center;
-    margin-left: 20vw;
+    margin-left: 30vw;
     width:500px;
     height:400px;
     
@@ -344,17 +344,19 @@ margin: 20px;
 }
 .youtubevideoin .inpagevideos{
     width: 100%;
+    height:100%;
     
 }
 .youtubevideoin iframe{
     width: 100%;
-    /* height: 100%; */
+   height: 100%; 
 }
-.youtubevideo{
+/* .youtubevideo{
     width: 100vw;
-}
+} */
 .videout{
     width: 100%;
+    height:100%;
 }
 .swan{
  width:100vw;
