@@ -544,7 +544,9 @@ border: none;
         height:580px;
     }
     code pre{
-        width:90vw;
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
   
 }
@@ -574,9 +576,12 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     code pre{
-        width:90vw;
+      code pre{
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
      
 }
 @media screen and (max-width:480px) {
@@ -592,9 +597,12 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     code pre{
-        width:90vw;
+      code pre{
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
 }
 @media screen and (max-width:414px){
     #wave{
@@ -616,8 +624,11 @@ border: none;
         width:100vw;
     }
      code pre{
-        width:90vw;
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
 }
 @media screen and (max-width:412px){
     #wave{
@@ -638,9 +649,12 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     code pre{
-        width:90vw;
+      code pre{
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
 }
 @media screen and (max-width:375px){
     .page-right{
@@ -655,9 +669,12 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     code pre{
-        width:90vw;
+      code pre{
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
 }
 @media screen and (max-width:360px){
     .page-right{
@@ -672,9 +689,12 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     code pre{
-        width:90vw;
+      code pre{
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
 }
 @media screen and (max-width:280px){
     .page-right{
@@ -699,7 +719,10 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     code pre{
-        width:90vw;
+      code pre{
+         position: relative;
+        left: 0%;
+       width: 90vw;
     }
+  
 }
