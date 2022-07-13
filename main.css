@@ -139,9 +139,9 @@ code pre{
   height: auto;
 }
 .bla-bla p{
-    padding-right:150px;
-    padding-left: 150px;
-    padding-bottom: 50px;
+    margin-right:150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
     text-align: center;
 }
 /* .main-page{
@@ -542,8 +542,7 @@ border: none;
     .swan{
      
         height:580px;
-    }
-    
+    }  
     .bla-bla p{
     margin-right:10px;
     margin-left: 10px;
