@@ -138,12 +138,13 @@ code pre{
     top:-20px;
 }
 .bla-bla{
-  width: 100vw;
-  height: auto;
+   position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+ width: 60vw;
 }
 .bla-bla p{
-    margin-right:150px;
-    margin-left: 150px;
+   padding:20px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -472,7 +473,9 @@ border: none;
         height:640px;
         
     }
-   
+   .bla-bla{
+       width: 80vw;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -546,9 +549,8 @@ border: none;
      
         height:580px;
     }  
-    .bla-bla p{
-    margin-right:10px;
-    margin-left:10px;
+    .bla-bla{
+    width: 100vw;
 }
        code pre{
        position: relative;
@@ -585,9 +587,8 @@ border: none;
         width:100vw;
     }
      
-     .bla-bla p{
-     margin-right:10px;
-    margin-left: 10px;
+     .bla-bla{
+     width: 100vw;
 }
        code pre{
        position: relative;
@@ -611,9 +612,8 @@ border: none;
         width:100vw;
     }
     
-     .bla-bla p{
-    margin-right:10px;
-    margin-left: 10px;
+     .bla-bla{
+    width: 100vw;
 }
        code pre{
        position: relative;
@@ -642,9 +642,8 @@ border: none;
         width:100vw;
     }
     
-     .bla-bla p{
-    margin-right:10px;
-    margin-left: 10px;
+     .bla-bla{
+    width: 100vw;
 }
        code pre{
        position: relative;
@@ -673,9 +672,8 @@ border: none;
         width:100vw;
     }
     
-     .bla-bla p{
-    margin-right:10px;
-    margin-left: 10px;
+     .bla-bla{
+   width: 100vw;
 }
        code pre{
        position: relative;
@@ -698,9 +696,8 @@ border: none;
         width:100vw;
     }
    
-     .bla-bla p{
-     margin-right:10px;
-    margin-left: 10px;
+     .bla-bla{
+    width: 100vw;
 }
        code pre{
        position: relative;
@@ -723,9 +720,8 @@ border: none;
         width:100vw;
     }
     
-     .bla-bla p{
-    margin-right:10px;
-    margin-left: 10px;
+     .bla-bla {
+   width: 100vw;
 }
        code pre{
        position: relative;
@@ -757,9 +753,8 @@ border: none;
     .youtubevideoin{
         width:100vw;
     }
-     .bla-bla p{
-     margin-right:10px;
-    margin-left: 10px;
+     .bla-bla {
+    width: 100vw;
 }
        code pre{
        position: relative;
