@@ -92,7 +92,7 @@ code pre{
     align-items: center;
 }
 .youtubevideo video{
-    width:90vw;
+    width:100vw;
     height:auto;
     justify-content: center;
 }
