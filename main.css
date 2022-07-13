@@ -379,11 +379,12 @@ border: none;
     padding-top: 100px;
 }
 .link-animations{
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
     width:90vw;
-    margin:20px;
+    margin-bottom:50px;
     padding:10px;
-    color:white;
-    background-color:#20b2aa;
     border-radius:20px;
 }
 
