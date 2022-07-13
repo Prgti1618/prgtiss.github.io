@@ -378,7 +378,14 @@ border: none;
 .footer p{
     padding-top: 100px;
 }
-
+.link-animations{
+    width:90vw;
+    margin:20px;
+    padding:10px;
+    color:white;
+    background-color:#20b2aa;
+    border-radius:20px;
+}
 
 @media screen and (max-width:1200px) {
     .page-right{
