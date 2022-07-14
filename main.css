@@ -202,7 +202,7 @@ margin: 20px;
     }
 
 .page-left h1{
-    font-size: 25px;
+    font-size: 29px;
     color: teal;
     padding: 10px;
 }
@@ -213,10 +213,10 @@ margin: 20px;
     font-family: 'Merienda', cursive;
 }
 .page-left h4{
-    font-size: 12px;
+    font-size: 15px;
     font-family: sans-serif, cursive;
     font-weight:small;
-    padding: 20px;
+    padding: 10px;
     color: grey;
 }
 .aboutme{
