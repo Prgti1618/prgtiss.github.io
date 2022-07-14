@@ -169,7 +169,7 @@ code pre{
     height: inherit;
     width:inherit;
     object-fit: contain;
-  
+    z-index:1;
 }
 .page-left{
     width: 50%;
