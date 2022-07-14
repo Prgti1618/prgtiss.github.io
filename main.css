@@ -213,8 +213,9 @@ margin: 20px;
     font-family: 'Merienda', cursive;
 }
 .page-left h4{
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif, cursive;
+    font-weight:small;
     padding: 20px;
     color: grey;
 }
