@@ -243,7 +243,7 @@ margin: 20px;
 .fa:hover{
     color: rgb(5, 65, 65);
 }
-.aboutme h1{
+.aboutme h2{
     font-size: 40px;
     color: rgb(247, 247, 247);
     font-family: 'Merienda One', cursive;
@@ -255,7 +255,7 @@ margin: 20px;
   height: auto;
   
 }
-.animations h1{
+.animations h2{
     font-size: 40px;
     color: rgb(247, 247, 247);
     font-family: 'Merienda One', cursive;
