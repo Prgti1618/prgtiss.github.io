@@ -457,6 +457,11 @@ border: none;
     padding:10px;
     border-radius:20px;
 }
+.privacy_bottom, .terms{
+    padding:20px;
+    color:teal;
+}
+
 
 @media screen and (max-width:1200px) {
     .page-right{
