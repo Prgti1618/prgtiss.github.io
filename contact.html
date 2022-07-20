@@ -64,10 +64,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2 style="text-align: center;">Welcome to <a href="index.html" style="color: teal;">PRGTI free coder</a>!</h2>
     
     <div class="container">
-        <form id="contact-form" method="post" action="contact_form.php">
-      <input name="name" type="text" placeholder="Name" class="contact_form_txt"/>
-      <input name="email" type="text" placeholder="Email" class="contact_form_txt"/>
-      <textarea name="message" placeholder="Message" class="contact_form_textarea"></textarea>
+      <form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
+      <input id="name" type="text" placeholder="Name" class="contact_form_txt"/>
+      <input id="email" type="text" placeholder="Email" class="contact_form_txt"/>
+      <textarea id="message" placeholder="Message" class="contact_form_textarea"></textarea>
       <input type="submit" class="contact_form_btn" value="Send Message"/>
       </form>
     </div>
@@ -108,7 +108,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  const form = document.querySelector('#contact-form');
+  function sendMsg(e){
+    e.preventDefault();
+  const name = document.querySelector('#name');
+  const email = document.querySelector('#email');
+  const msg = document.querySelector('#message');
+  function sendEmail(){
+    Email.send({
+    SecureToken :"925710a9-7ec4-4d1d-94b1-3c375fe79214",
+    To : 'pragatighanekar04@gmail.com',
+    From : email.value,
+    Name : name.value,
+    Subject : "This is the subject",
+    Body : msg.value
+}).then(
+  message => alert(message)
+);
+  }
+}
+form.addEventListener('submit',sendMsg);
+</script>
 </body>
 
 </html>
