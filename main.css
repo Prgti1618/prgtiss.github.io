@@ -354,10 +354,7 @@ margin: 10px -50px;
 border: 0;
 border-top: 1px solid #ccc;
 }
-.contact_bottom span
-{
-color:red;
-}
+
 .contact_bottom div.container
 {
 width: 960px;
@@ -365,15 +362,7 @@ height: 610px;
 margin:35px auto;
 font-family: 'Raleway', sans-serif;
 }
-.contact_bottom div.main
-{
-width: 350px;
-padding: 10px 50px 30px;
-border: 2px solid gray;
-border-radius: 10px;
-font-family: raleway;
-float:left;
-}
+
 .contact_bottom input[type=text],textarea
 {
 width: 97.7%;
