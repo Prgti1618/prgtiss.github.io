@@ -340,7 +340,7 @@ margin: 20px;
   color: white;
 }
 /* contact */
-h2
+.contact_bottom h2
 {
 background-color: #FEFFED;
 padding: 15px 35px;
@@ -348,24 +348,24 @@ margin: -10px -50px;
 text-align:center;
 border-radius: 10px 10px 0 0;
 }
-hr
+.contact_bottom hr
 {
 margin: 10px -50px;
 border: 0;
 border-top: 1px solid #ccc;
 }
-span
+.contact_bottom span
 {
 color:red;
 }
-div.container
+.contact_bottom div.container
 {
 width: 960px;
 height: 610px;
 margin:35px auto;
 font-family: 'Raleway', sans-serif;
 }
-div.main
+.contact_bottom div.main
 {
 width: 350px;
 padding: 10px 50px 30px;
@@ -374,7 +374,7 @@ border-radius: 10px;
 font-family: raleway;
 float:left;
 }
-input[type=text],textarea
+.contact_bottom input[type=text],textarea
 {
 width: 97.7%;
 height: 34px;
@@ -386,19 +386,19 @@ color: #4f4f4f;
 font-size: 16px;
 border-radius: 5px;
 }
-textarea
+.contact_bottom textarea
 {
 resize:none;
 height:80px;
 }
-label
+.contact_bottom label
 {
 color: #464646;
 text-shadow: 0 1px 0 #fff;
 font-size: 14px;
 font-weight: bold;
 }
-.submit
+.contact_bottom #submit
 {
 padding: 10px;
 text-align: center;
@@ -412,7 +412,7 @@ text-shadow: 0px 1px 0px #13506D;
 width: 100%;
 border-radius: 5px;
 }
-.submit:hover
+.contact_bottom #submit:hover
 {
 background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }
