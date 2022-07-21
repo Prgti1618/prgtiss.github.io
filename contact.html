@@ -68,7 +68,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input id="name" type="text" placeholder="Name" class="contact_form_txt"/>
       <input id="emailid" type="text" placeholder="Email" class="contact_form_txt"/>
       <textarea id="message" placeholder="Message" class="contact_form_textarea"></textarea>
-      <input type="submit" onclick="sendEmail()" class="contact_form_btn" value="Send Message"/>
+      <button type="submit" onclick="sendEmail()" class="contact_form_btn">Submit</button>
       </form>
     </div>
     
@@ -110,6 +110,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>
+     function sendMsg(e){
+    e.preventDefault();
   const form = document.getElementById('contact-form');
   const nameid = document.getElementById('name');
   const emailid = document.getElementById('emailid');
@@ -126,7 +128,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   message => alert(message)
 );
   }
-// form.addEventListener('submit',sendMsg);
+     }         
+form.addEventListener('submit',sendMsg);
+
 </script>
 </body>
 
