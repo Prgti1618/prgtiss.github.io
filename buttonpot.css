@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: rgb(255, 255, 255);
+    width:100vw;
+    height: auto;
+}
+
+.buttons{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline-color:grey;
+}
+.buttons .btn{
+    z-index: 1;
+    width: 200px;
+    height: 100px;
+    border:none;
+    padding: 80px 180px;
+    backface-visibility: hidden;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: linear-gradient(258deg, rgb(0, 0, 0) 0%, rgba(255,255,255,1) 74%, rgb(0, 0, 0) 100%)!important;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 50px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+}
+ .btn::before{
+    display: block;
+    content: '';
+    position: relative;
+    top: -235px;
+    left: -175px;
+    z-index: 0;
+    padding: 130px 176px; 
+    background: linear-gradient(315deg, rgb(101, 94, 94) 51%, rgb(225, 225, 225) 63%, rgb(222, 222, 222) 62%, rgb(79, 72, 72) 69%);
+    clip-path: polygon(50% 40%, 75% 40%, 100% 60%, 46% 60%, 61% 60%, 0% 60%, 28% 40%); 
+    transition: all ease-in-out 1s;
+}
+ .btn::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: -130px;
+    left: 145px;
+    clip-path: polygon(28% 35%, 73% 35%, 100% 50%, 63% 100%, 42% 100%, 0% 50%);
+    z-index: 2;
+    border: none;
+    padding: 40px 36px;
+    background-color: rgb(71, 68, 68);
+    transition: all ease-in-out 1s;
+}
+
+.btn:hover::before{
+    content: "";
+    transform:  translateY(-60px) rotate(20deg);
+    transition: all ease-in-out 1s;
+}
+.btn:hover::after{
+    content: "";
+    transform:  translateY(-60px) rotate(20deg) translateX(20px);
+    transition: all ease-in-out 1s;
+}
+
+.buttons .btn:active{
+    transform: scale(.9);
+    transition: all .5s ease;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 50px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+    background: linear-gradient(258deg, rgb(0, 0, 0) 0%, rgba(255,255,255,1) 74%, rgb(0, 0, 0) 100%)!important;
+}
+.buttons .btn:focus{
+    background: linear-gradient(258deg, rgb(0, 0, 0) 0%, rgba(255,255,255,1) 74%, rgb(0, 0, 0) 100%)!important;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 50px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+}
+
+
+
