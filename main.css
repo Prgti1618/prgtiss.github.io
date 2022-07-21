@@ -344,7 +344,7 @@ margin: 20px;
 /* button
  */
 .button-container{
-    position: absolute;
+    position: relative;
    border: 2px solid grey;
    border-radius: 50px;
 }
