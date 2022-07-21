@@ -64,11 +64,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2 style="text-align: center;">Welcome to <a href="index.html" style="color: teal;">PRGTI free coder</a>!</h2>
     
     <div class="container">
-     <form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
+     <form id="contact-form">
       <input id="name" type="text" placeholder="Name" class="contact_form_txt"/>
       <input id="emailid" type="text" placeholder="Email" class="contact_form_txt"/>
       <textarea id="message" placeholder="Message" class="contact_form_textarea"></textarea>
-      <input type="submit" class="contact_form_btn" value="Send Message"/>
+      <input type="submit" onclick="sendEmail(); reset(); return false;" class="contact_form_btn" value="Send Message"/>
       </form>
     </div>
     
@@ -116,7 +116,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   const msg = document.getElementById('message');
   function sendEmail(){
     Email.send({
-    Host: "smtp.gmail.com",
     SecureToken :"925710a9-7ec4-4d1d-94b1-3c375fe79214",
     To : "contact@prgtifreecoder.com",
     From : emailid.value,
