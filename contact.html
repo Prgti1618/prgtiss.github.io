@@ -68,7 +68,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="text-center" style="font-size: 20px;">Please email us if you have any queries about the site, advertising, or anything else.</p>
     <div style="text-align: center;">
       
-    <img alt="contact-us" height="150" src="images/email3.png" width="300">
+    <img alt="contact-us" height="200" src="images/email3.png" width="300">
       
     <p class="text-center"><i class="fa fa-envelope" style="color:teal; font-size:20px"></i> <b><i> <a href="mailto:contact@prgtifreecoder.com" style="color: teal; text-align: center;">contact@prgtifreecoder.com</a></i></b><br>
         
@@ -101,28 +101,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-     function sendMsg(e){
-    e.preventDefault();
-  const form = document.getElementById('contact-form');
-  const nameid = document.getElementById('name');
-  const emailid = document.getElementById('emailid');
-  const msg = document.getElementById('message');
-  function sendEmail(){
-    Email.send({
-    SecureToken :"925710a9-7ec4-4d1d-94b1-3c375fe79214",
-    To : "contact@prgtifreecoder.com",
-    From : emailid.value,
-    Name : nameid.value,
-    Subject : "This is the subject",
-    Body : msg.value
-}).then(
-  message => alert(message)
-);
-  }
-     }         
-form.addEventListener('submit',sendMsg);
 
 </script>
 </body>
