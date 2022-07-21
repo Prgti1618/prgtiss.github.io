@@ -68,7 +68,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input id="name" type="text" placeholder="Name" class="contact_form_txt"/>
       <input id="emailid" type="text" placeholder="Email" class="contact_form_txt"/>
       <textarea id="message" placeholder="Message" class="contact_form_textarea"></textarea>
-      <input type="submit" onclick="sendEmail()" class="contact_form_btn" value="Send Message"/>
+      <input type="submit" onclick="sendEmail(); reset(); return false;" class="contact_form_btn" value="Send Message"/>
       </form>
     </div>
     
