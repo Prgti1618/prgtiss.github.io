@@ -350,7 +350,7 @@ margin: 20px;
    border: 2px solid grey;
    border-radius: 50px;
 }
-.button-container .container{
+.button-container.container{
     width: 960px;
 height: 610px;
 margin:35px auto;
