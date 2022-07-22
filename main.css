@@ -350,6 +350,11 @@ margin: 20px;
    border: 2px solid grey;
    border-radius: 50px;
 }
+.button-container .container{
+    width: 960px;
+height: 610px;
+margin:35px auto;
+}
 .p-button{
     text-align: center;
     font-size: 20px;
@@ -366,28 +371,8 @@ margin: 20px;
 }
 
 /* contact */
-.contact_bottom h2
-{
-background-color: #FEFFED;
-padding: 15px 35px;
-margin: -10px -50px;
-text-align:center;
-border-radius: 10px 10px 0 0;
-}
-.contact_bottom hr
-{
-margin: 10px -50px;
-border: 0;
-border-top: 1px solid #ccc;
-}
 
-.contact_bottom div.container
-{
-width: 960px;
-height: 610px;
-margin:35px auto;
-font-family: 'Raleway', sans-serif;
-}
+
 
 .contact_bottom input[type=text],textarea
 {
