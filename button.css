@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body_name_double{
+    width: 100vw;
+    height: 100vh;
+}
+.contain_double{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:100%;
+    margin: 25px auto;
+    background-image: url("images/kitchen.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+.modal{
+    position:relative;
+    z-index: 99999;
+}
+
+.buttons_double{
+    position: absolute;
+    top: 52%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    outline-color:grey;
+}
+.buttons_double .btn{
+    z-index: 1;
+    width: 140px;
+    height: 50px;
+    border:none;
+    padding: 30px 50px;
+    outline-color:grey;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: linear-gradient(258deg, rgb(0, 0, 0) 0%, rgba(255,255,255,1) 74%, rgb(0, 0, 0) 100%)!important;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 50px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+}
+.buttons_double > .btn::before{
+    display: block;
+    content: '';
+    position: relative;
+    top: -77px;
+    left: -50px;
+    z-index: 0;
+    padding: 40px 70px; 
+    background: linear-gradient(315deg, rgb(101, 94, 94) 51%, rgb(225, 225, 225) 63%, rgb(222, 222, 222) 62%, rgb(79, 72, 72) 69%);
+    clip-path: polygon(50% 40%, 75% 40%, 100% 60%, 46% 60%, 61% 60%, 0% 60%, 28% 40%); 
+    transition: all ease-in-out 1s;
+}
+.buttons_double > .btn::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 62px;
+    clip-path: polygon(28% 35%, 73% 35%, 100% 50%, 63% 100%, 42% 100%, 0% 50%);
+    z-index: 2;
+    border: none;
+    padding: 18px 12px;
+    background-color: rgb(71, 68, 68);
+    transition: all ease-in-out 1s;
+}
+
+.buttons_double .btn:hover::before{
+    content: "";
+    transform:  translateY(-30px) rotate(20deg);
+    transition: all ease-in-out 1s;
+}
+.buttons_double .btn:hover::after{
+    content: "";
+    transform:  translateY(-30px) rotate(20deg);
+    transition: all ease-in-out 1s;
+}
+.buttons_double .btn:active{
+    transform: scale(.9);
+    transition: all .5s ease;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 50px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+    background: linear-gradient(258deg, rgb(0, 0, 0) 0%, rgba(255,255,255,1) 74%, rgb(0, 0, 0) 100%)!important;
+}
+.buttons_double .btn:focus{
+    background: linear-gradient(258deg, rgb(0, 0, 0) 0%, rgba(255,255,255,1) 74%, rgb(0, 0, 0) 100%)!important;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 50px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+}
+.buttons_double .btn:focus .fa-solid{
+    color: black;
+}
+
+
