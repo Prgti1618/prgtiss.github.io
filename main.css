@@ -500,7 +500,133 @@ border: none;
     padding:20px;
     color:teal;
 }
+/* raining */
+.rain-para{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    text-align: center;
+    padding: 50px;
+}
+xmp{
+    width: 80vw;
+    word-wrap: break-word;
+    -webkit-word-wrap: break-word;
+   word-break: break-all;
+   word-wrap: break-word; /* IE>=5.5 */
+   white-space: -moz-pre-wrap; /* For Fx<=2 */   
+   white-space: pre-wrap; /* Fx>3, Opera>8, Safari>3 */
+   white-space: -o-pre-wrap; /* Opera 7 */
+   white-space: pre-line;
+    overflow-wrap: break-word;
+    -webkit-overflow-wrap: break-word ;
+}
+.bton-img.container{
+position:relative;
+width:85vw;
+height:610px;
+}
+.modal-footer a{
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+}
 
+.container.raining-container{
+    position:relative;
+    width:90vw;
+    height:auto;
+    text-align: center;
+}
+.container.raining-container img{
+    width:100%;
+    /* margin:50px; */
+}
+.curtaininbet{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width:60vw;
+    height: 300px;
+    border: 5px groove rgb(6, 93, 77);
+    background-color: black;
+
+}
+.curtaininbet .curton1{
+        position: absolute;
+        top: 0px;
+        right:0px;
+       display: inline-flex;
+        height:390px;
+        width: 180px;
+        background: repeating-radial-gradient(circle, rgba(0, 255, 242, 0.614) 50%, rgba(1, 28, 28, .8) 70%);
+       opacity: .5;
+      transform-style: preserve-3d;
+     background-size: 2em 2em;
+     clip-path: polygon(100% 0, 47% 0, 47% 13%, 48% 30%, 51% 46%, 55% 67%, 55% 89%, 50% 100%, 100% 100%);
+     animation: ray1 4s ease-in-out infinite;
+    z-index: 5;
+    
+    }
+    @keyframes ray1{
+        0%{
+            
+        }
+        50%{
+            clip-path: polygon(100% 0, 47% 0, 44% 17%, 43% 30%, 44% 48%, 46% 72%, 49% 92%, 50% 100%, 100% 100%);
+        }
+        100%{
+            clip-path: polygon(100% 0, 47% 0, 47% 13%, 48% 30%, 51% 46%, 55% 67%, 55% 89%, 50% 100%, 100% 100%);
+        }
+    } 
+    .curtaininbet .curton2{
+        position: absolute;
+        top: 0px;
+        left:0px;
+       display: inline-flex;
+       height:390px;
+       width: 180px;
+        background: repeating-radial-gradient(circle, rgba(0, 255, 242, 0.614) 50%, rgba(1, 28, 28, .8) 70%);
+       opacity: .5;
+      transform-style: preserve-3d;
+     background-size: 2em 2em;
+     clip-path: polygon(0 0, 65% 0, 60% 23%, 55% 42%, 48% 63%, 43% 81%, 42% 91%, 43% 100%, 0 100%);
+     animation: ray2 4s ease-in-out infinite;
+    z-index: 5;
+    }
+    @keyframes ray2{
+        0%{
+            
+        }
+        50%{
+            clip-path: polygon(0 0, 55% 0, 56% 23%, 55% 42%, 54% 67%, 57% 91%, 58% 99%, 59% 100%, 0 100%);
+        }
+        100%{
+            clip-path: polygon(0 0, 65% 0, 60% 23%, 55% 42%, 48% 63%, 43% 81%, 42% 91%, 43% 100%, 0 100%);
+        }
+    }
+
+
+/* steaming raining */
+#tea{
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+   justify-content:center;
+}
+.teadiv{
+    width:100%;
+    height: 200px;
+   justify-content: center;
+}
+@media screen and (min-width:700px){
+    .teadiv{
+        width:100%;
+        height: 600px;
+       justify-content: center;
+    } 
+}
 
 @media screen and (max-width:1200px) {
     .page-right{
