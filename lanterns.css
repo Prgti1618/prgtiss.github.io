@@ -256,10 +256,10 @@
   }
   @keyframes mediaballoonmove3{
     0%{
-      transform: scale(.5);
+      transform: scale(.3);
     }
     100%{
-      transform: translateY(-150vh) scale(.5);
+      transform: translateY(-140vh) scale(.3);
       }
   }
   @keyframes balloonmoveone{
