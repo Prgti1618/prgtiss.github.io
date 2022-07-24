@@ -551,6 +551,7 @@ height:610px;
     height: 300px;
     border: 5px groove rgb(6, 93, 77);
     background-color: black;
+    margin-bottom:100px;
 
 }
 .curtaininbet .curton1{
@@ -559,7 +560,7 @@ height:610px;
         right:0px;
        display: inline-flex;
         height:390px;
-        width: 180px;
+        width: 280px;
         background: repeating-radial-gradient(circle, rgba(0, 255, 242, 0.614) 50%, rgba(1, 28, 28, .8) 70%);
        opacity: .5;
       transform-style: preserve-3d;
@@ -586,7 +587,7 @@ height:610px;
         left:0px;
        display: inline-flex;
        height:390px;
-       width: 180px;
+       width: 280px;
         background: repeating-radial-gradient(circle, rgba(0, 255, 242, 0.614) 50%, rgba(1, 28, 28, .8) 70%);
        opacity: .5;
       transform-style: preserve-3d;
@@ -626,6 +627,16 @@ height:610px;
         height: 600px;
        justify-content: center;
     } 
+    .curtaininbet .curton1{
+
+        height:290px;
+        width: 160px;
+}
+    .curtaininbet .curton2{
+
+        height:290px;
+        width: 160px;
+}
 }
 
 @media screen and (max-width:1200px) {
