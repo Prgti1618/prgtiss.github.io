@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body style="background-color:black ;">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WG2BCC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -66,20 +66,28 @@
         </ol>
     </nav>
 
-    <div class="container-fluid">
-        <div class="youtubevideoin">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FPbKsJfkQwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h1 class="text-center">Clay lamp animation by using html and css and svg.
+    <div class="container-fluid lamping">
+       <div class="container lamp-container">
+        <!-- <figure> -->
+            <img id="thumb-lamp" src="images/lampsnap.PNG" alt="lamp gif">
+            <button type="button" class="btn"
+                onclick='document.getElementById("thumb-lamp").src="images/lamp.gif"'>click to see
+                animation</button>
+            <button type="button" class="btn"
+                onclick='document.getElementById("thumb-lamp").src="images/lampsnap.PNG"'>stop animation</button>
+        <!-- </figure> -->
+        
+       </div>
+        <h1 class="text-center text-white mt-4" >Clay lamp animation by using html and css and svg.
         </h1>
         <p class="text-center">Clay lamp animation by <a
                 href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
-        <br><br>
+        <br>
+   <p> beautiful clay oil lamp animation. in this project we will see smoothing fire on clay lamp animation with pure css. we are going to use svg image for clay oil lamp here. so let's start with the html code for lamp. see the below code:</p>
         <code>
-<pre class="container">
+<pre class="container button-code-lamp">
 <xmp>
-    <body class="body_one">
-        <svg  viewbox="-200 -50 1200 600" >
+        <svg  viewbox="-200 -50 1200 600">
             <defs>
                 <linearGradient id="Gradient1" x1="1" x2="0" y1="0" y2="1">
                   <stop class="stop1" offset="40%" style="stop-color: rgb(171, 6, 6)"/>
@@ -101,26 +109,34 @@
              <path d="M 331.907 366.418" stroke="sienna" stroke-width="0.5" fill="sienna"/>
              <path d="M 271.736 272.504 C 273.538 219.178 223.3013 218.5647 221.128 167.539 C 242.708 209.158 294.087 246.299 297.811 277.448 L 271.378 271.441 L 269.992 253.752 L 286.232 248.677 L 297.21 276.247" stroke="sienna" stroke-width="0" fill="url(#Gradient2)"/>
         </svg>
-        
-        <div class="fire"></div>
-        </body>    
-</xmp>
-</pre>
+    </xmp>    
+    </pre>
 </code>
-        <br><br>
-        <code>
- <pre class="container">
-    *{
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
-        }
+    <p>and here is html code for fire on lamp. we need only one div element for it. see the below html code:</p>
+     <code>
+        <pre class="container button-code-lamp">
+           <xmp>
+            <div class="fire"></div>
+           </xmp>
+        </pre>
+     </code>
+<p>here is css code for fire animation. In the below css code body_name is the class name for body tag.</p>
+<code>
+    <pre class="container button-code-lamp">
         .body_one{
+            width:1300px;
+            height: 800px;
             background: black;
         }
+    </pre>
+</code>        
+<p>and now this is css code for fire div element, we have used ::before and ::after pseudo elements fto create different colors of flame:</p>
+<code>
+    <pre class="container button-code-lamp">
         svg{
             z-index: 0;
         }
+        
         .fire{
            position:absolute; 
            top: 20px;
@@ -177,11 +193,10 @@
                     border-top-right-radius: 1925%;
                     transform:translateY(0px);
             }
-        }   
-  
- </pre>   
-</code>
-        <br><br>
+        }
+    </pre>
+</code>           
+        <br>
     </div>
 
     <div class="credit">
@@ -209,6 +224,7 @@
 
     </div>
 
+   
 </body>
 
 </html>
