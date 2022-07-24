@@ -627,17 +627,8 @@ height:610px;
         height: 600px;
        justify-content: center;
     } 
-    .curtaininbet .curton1{
+}
 
-        height:290px;
-        width: 160px;
-}
-    .curtaininbet .curton2{
-
-        height:290px;
-        width: 160px;
-}
-}
 
 @media screen and (max-width:1200px) {
     .page-right{
@@ -817,6 +808,16 @@ height:610px;
        width: 90vw;
 /*        transform: translateX(0%);     */
     }
+    .curtaininbet .curton1{
+
+        height:290px;
+        width: 160px;
+}
+    .curtaininbet .curton2{
+
+        height:290px;
+        width: 160px;
+}
   
 }
 @media screen and (max-width:540px){
