@@ -422,84 +422,68 @@
   }
 }
 
-@media screen and (max-width: 998px) {
-  .ballon_container:nth-child(1) {
-    -webkit-animation: mediaballoonmove 6s ease-in-out infinite 6s;
-            animation: mediaballoonmove 6s ease-in-out infinite 6s;
+@media screen and (max-width:998px){
+  .ballon_container:nth-child(1){
+    animation:mediaballoonmove 16s ease-in-out infinite 3s;
   }
-  .ballon_container:nth-child(2) {
-    -webkit-animation: mediaballoonmoveone 8s ease-in-out infinite 6s;
-            animation: mediaballoonmoveone 8s ease-in-out infinite 6s;
+  .ballon_container:nth-child(2){
+    animation:mediaballoonmoveone 18s ease-in-out infinite 3s;
   }
-  .ballon_container:nth-child(7) {
-    -webkit-animation: mediaballoonmoveone 8s ease-in-out infinite 7s;
-            animation: mediaballoonmoveone 8s ease-in-out infinite 7s;
+  .ballon_container:nth-child(7){
+    animation:mediaballoonmoveone 18s ease-in-out infinite 4s;
   }
-  .ballon_container:nth-child(8) {
-    -webkit-animation: mediaballoonmoveone 8s ease-in-out infinite 8s;
-            animation: mediaballoonmoveone 8s ease-in-out infinite 8s;
+  .ballon_container:nth-child(8){
+    animation:mediaballoonmoveone 18s ease-in-out infinite 8s;
   }
-  .ballon_container:nth-child(9) {
-    -webkit-animation: mediaballoonmove 6s ease-in-out infinite 4s;
-            animation: mediaballoonmove 6s ease-in-out infinite 4s;
+  .ballon_container:nth-child(9){
+    animation:mediaballoonmove 16s ease-in-out infinite 2s;
   }
-  .ballon_container:nth-child(10) {
-    -webkit-animation: mediaballoonmove 6s ease-in-out infinite 2s;
-            animation: mediaballoonmove 6s ease-in-out infinite 2s;
+  .ballon_container:nth-child(10){
+    animation:mediaballoonmove 16s ease-in-out infinite ;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .ballon_container:nth-child(1) {
-    -webkit-animation: mediaballoonmove2 6s ease-in-out infinite 6s;
-            animation: mediaballoonmove2 6s ease-in-out infinite 6s;
+
+@media screen and (max-width:1200px){
+  .ballon_container:nth-child(1){
+    animation:mediaballoonmove2 16s ease-in-out infinite 3s;
   }
-  .ballon_container:nth-child(2) {
-    -webkit-animation: mediaballoonmoveone2 8s ease-in-out infinite 6s;
-            animation: mediaballoonmoveone2 8s ease-in-out infinite 6s;
+  .ballon_container:nth-child(2){
+    animation:mediaballoonmoveone2 18s ease-in-out infinite 3s;
   }
-  .ballon_container:nth-child(7) {
-    -webkit-animation: mediaballoonmoveone2 8s ease-in-out infinite 7s;
-            animation: mediaballoonmoveone2 8s ease-in-out infinite 7s;
+  .ballon_container:nth-child(7){
+    animation:mediaballoonmoveone2 18s ease-in-out infinite 4s;
   }
-  .ballon_container:nth-child(8) {
-    -webkit-animation: mediaballoonmoveone2 8s ease-in-out infinite 8s;
-            animation: mediaballoonmoveone2 8s ease-in-out infinite 8s;
+  .ballon_container:nth-child(8){
+    animation:mediaballoonmoveone2 18s ease-in-out infinite 8s;
   }
-  .ballon_container:nth-child(9) {
-    -webkit-animation: mediaballoonmove2 6s ease-in-out infinite 4s;
-            animation: mediaballoonmove2 6s ease-in-out infinite 4s;
+  .ballon_container:nth-child(9){
+    animation:mediaballoonmove2 16s ease-in-out infinite 2s;
   }
-  .ballon_container:nth-child(10) {
-    -webkit-animation: mediaballoonmove2 6s ease-in-out infinite 2s;
-            animation: mediaballoonmove2 6s ease-in-out infinite 2s;
+  .ballon_container:nth-child(10){
+    animation:mediaballoonmove2 16s ease-in-out infinite ;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .ballon_container:nth-child(1) {
-    -webkit-animation: mediaballoonmove3 6s ease-in-out infinite 6s;
-            animation: mediaballoonmove3 6s ease-in-out infinite 6s;
+
+@media screen and (max-width:768px){
+  .ballon_container:nth-child(1){
+    animation:mediaballoonmove3 16s ease-in-out infinite 3s;
   }
-  .ballon_container:nth-child(2) {
-    -webkit-animation: mediaballoonmoveone3 8s ease-in-out infinite 6s;
-            animation: mediaballoonmoveone3 8s ease-in-out infinite 6s;
+  .ballon_container:nth-child(2){
+    animation:mediaballoonmoveone3 18s ease-in-out infinite 3s;
   }
-  .ballon_container:nth-child(7) {
-    -webkit-animation: mediaballoonmoveone3 8s ease-in-out infinite 7s;
-            animation: mediaballoonmoveone3 8s ease-in-out infinite 7s;
+  .ballon_container:nth-child(7){
+    animation:mediaballoonmoveone3 18s ease-in-out infinite 4s;
   }
-  .ballon_container:nth-child(8) {
-    -webkit-animation: mediaballoonmoveone3 8s ease-in-out infinite 8s;
-            animation: mediaballoonmoveone3 8s ease-in-out infinite 8s;
+  .ballon_container:nth-child(8){
+    animation:mediaballoonmoveone3 18s ease-in-out infinite 8s;
   }
-  .ballon_container:nth-child(9) {
-    -webkit-animation: mediaballoonmove3 6s ease-in-out infinite 4s;
-            animation: mediaballoonmove3 6s ease-in-out infinite 4s;
+  .ballon_container:nth-child(9){
+    animation:mediaballoonmove3 16s ease-in-out infinite 2s;
   }
-  .ballon_container:nth-child(10) {
-    -webkit-animation: mediaballoonmove3 6s ease-in-out infinite 2s;
-            animation: mediaballoonmove3 6s ease-in-out infinite 2s;
+  .ballon_container:nth-child(10){
+    animation:mediaballoonmove3 16s ease-in-out infinite ;
   }
 }
 /*# sourceMappingURL=main.css.map */
