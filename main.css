@@ -714,6 +714,23 @@ height:610px;
    text-align: center;
    margin: 10px;
 }
+/* plate and glasslid */
+.container.cake-container{
+    position:relative;
+    width:100vw;
+    height:auto;
+    margin-bottom: 100px;
+}
+.cake_body p{
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+   text-align: center;
+   margin: 10px;
+}
 
 @media screen and (min-width:700px){
     .teadiv{
