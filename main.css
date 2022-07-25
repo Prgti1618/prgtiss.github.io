@@ -720,6 +720,8 @@ height:610px;
     width:100vw;
     height:auto;
     margin-bottom: 100px;
+    border: 2px solid grey;
+    border-radius: 20px;
 }
 .cake-body p{
     position:relative;
