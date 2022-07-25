@@ -106,7 +106,7 @@ img{
         width: 190px;
         height: 110px;
         position: relative;
-       top: 160px;
+       top: 158px;
        left: 50%;
        background: radial-gradient(130% 130px at 50% -30px, rgba(34,32,32,0.4)95%, transparent 95%) no-repeat;
 
@@ -116,7 +116,7 @@ img{
         height: 30px;
         position: absolute;
         top: -25px;
-        left: 45%;
+        left: 44%;
     }
     .lid::after{
         width: 150px;
