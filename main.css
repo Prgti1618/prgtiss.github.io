@@ -733,6 +733,58 @@ height:610px;
    text-align: center;
    margin: 10px;
 }
+/* moon and clouds */
+.container.clouds-container{
+    position:relative;
+    width:90vw;
+    height:auto;
+    margin-bottom: 100px;
+   
+
+}
+.container.clouds-container img{
+    width:100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.container.clouds-container button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #095044;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.container.clouds-container button:focus{
+    box-shadow: none;
+    background-color: grey;
+}
+.clouds_body p{
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+   text-align: center;
+   margin: 10px;
+   
+}
+.clouds_body{
+    background-color: rgb(12, 0, 45);
+}
+.container.button-code-moon{
+    background-color: rgb(12, 0, 45);
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+.clouds_body h1{
+    color: white;
+}
+
 
 @media screen and (min-width:700px){
     .teadiv{
