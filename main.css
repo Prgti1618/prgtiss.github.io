@@ -822,6 +822,9 @@ height:610px;
 .cup-body h1{
     color: rgb(0, 0, 0);
 }
+.cup-body #waveterms{
+    width: 120vw;
+}
 @media screen and (max-width:700px){
     .container.cup-container{
         transform: scale(.6);
