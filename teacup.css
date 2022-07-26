@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    }
+    .cup-body{
+    width: 100%;
+    height: 100%;
+   background-color: #a2a2a2;
+   
+    }
+    
+    .bowl{
+    width: 300px;
+    height:280px;
+    border-bottom-left-radius:200px ;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius:150px;
+    border-top-right-radius:150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background: linear-gradient(180deg, rgba(195,37,37,1) 18%, rgba(89,17,17,1) 100%);
+    
+    }
+    .bowl::before{
+    content: '';
+    position:absolute;
+    z-index: 1;
+    top: -3px;
+    left: 42px;
+    height: 65px;
+    width: 215px;
+    margin: 0 auto;
+    border-bottom: 10px solid rgb(195,37,37,1);
+    background: radial-gradient(circle, rgb(144, 45, 45) 61%, rgba(60,38,38,1) 100%);
+    border-radius: 100%;
+    }
+    .bowl::after{
+    content: '';
+    position:absolute;
+    z-index: 0;
+    top: 53px;
+    left: 77px;
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: rgba(228, 236, 244, .2);
+    overflow: hidden;
+    }
+    .tea{
+    position:relative;
+    z-index: 3;
+    margin: 0 auto;
+    border-radius: 200%;
+    animation-fill-mode: both;
+    background: linear-gradient(90deg, rgba(168,74,39,0.958420868347339) 61%, rgba(205,153,121,0.927608543417367) 100%);
+    }
+    
+    .coffee-shadow{
+    position:absolute;
+    top:405px;
+   left: 50%;
+   transform: translateX(-50%);
+    background:#393c41;
+    height:30px;
+    width: 65px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px 68px #4b453c;
+    }
+    
+    .window{
+    width: 400px;
+    height: 300px;
+    background-color: #393c41;
+    border: 50px groove rgb(75, 39, 13) ;
+    }
+    
+    
+    @keyframes pouringtea{
+    20%{
+    top: 207px;
+    left: -14px;
+    height: 5px;
+    width: 90px;
+    }
+    40%{
+    top: 198px;
+    left: -14px;
+    height: 15px;
+    width: 120px;
+    
+    }
+    
+    60%{
+    top: 194px;
+    left: -14px;
+    height: 20px;
+    width: 150px;
+    }
+    80%{
+    top: 182px;
+    left: -14px;
+    height: 30px;
+    width: 190px;
+    }
+    100%{
+    top: 171px;
+    left: -14px;
+    height: 40px;
+    width: 210px;
+    }
+    
+    }
+    
+    
+    .teaflow{
+    position:absolute;
+    top: -89px;
+    left: 50%;
+    width: 15px;
+    height: 0px;
+    background: linear-gradient(90deg, rgba(147,69,40,0.758420868347339) 58%, rgba(205,153,121,0.727608543417367) 83%);
+    z-index: 3;
+    }
+    .handle{
+    position:absolute;
+    left: 58%;
+    transform: translateX(-60%);
+    top:220px;
+    width:65px;
+    height: 110px;
+    transform:rotate(4deg);
+    background-color:transparent;
+    border-radius: 10% 50% 130px 0;
+    border: 30px solid rgb(160, 29, 29);
+    }
+    .handle::before{
+    content: '';
+    position:absolute;
+    right:-7px;
+    top:0px;
+    width:65px;
+    height: 100px;
+    transform:rotate(-13deg);
+    background-color:transparent;
+    border-radius: 10% 50% 130px 0;
+    border-right: 10px solid rgb(122, 19, 19);
+    }
+    
+    .handle::after{
+    content: '';
+    position:absolute;
+    right:-27px;
+    top:-32px;
+    width:118px;
+    height: 150px;
+    background-color:transparent;
+    border-radius: 10% 50% 130px 0;
+    border-top: 10px solid rgba(253, 253, 253, 0.2);
+    }
+    .steam1{
+    position:absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top:140px;
+    width:85px;
+    height: 100px;
+    transform:rotate(-15deg);
+    background-color:transparent;
+    border-radius: 10% 50% 130px 0px;
+    border-right: 30px solid rgba(255, 255, 255, 0.4);
+    filter:blur(15px);
+    z-index: 4;
+    opacity: 0;
+    }
+    @keyframes steaming1{
+    
+    10%{
+    opacity: 1;
+    }
+    
+    100%{
+    transform: translateY(-200px) translateX(20px);
+    opacity: 0;
+    filter: blur(15px);
+    }
+    }
+    @keyframes steaming2{
+    
+    10%{
+    opacity: 1;
+    }
+    100%{
+    transform: translateY(-200px) translateX(-20px);
+    opacity: 0;
+    filter: blur(15px);
+    }
+    }
+    .steam2{
+    position:absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top:140px;
+    width:85px;
+    height: 100px;
+    transform:rotate(20deg);
+    background-color:transparent;
+    border-radius: 50% 10% 0px 130px;
+    border-left: 30px solid rgba(255, 255, 255, 0.4);
+    filter:blur(15px);
+    z-index: 4;
+    opacity: 0;
+    }
+    .steam3{
+    position:absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top:140px;
+    width:85px;
+    height: 100px;
+    transform:rotate(-15deg);
+    background-color:transparent;
+    border-radius: 10% 50% 130px 0px;
+    border-right: 30px solid rgba(255, 255, 255, 0.4);
+    filter:blur(15px);
+    z-index: 4;
+    /* animation: steaming2 6s linear infinite 13s; */
+    opacity: 0;
+    }
+    .steam4{
+    position:absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top:140px;
+    width:85px;
+    height: 100px;
+    transform:rotate(20deg);
+    background-color:transparent;
+    border-radius: 50% 10% 0px 130px;
+    border-left: 30px solid rgba(255, 255, 255, 0.4);
+    filter:blur(15px);
+    z-index: 4;
+    /* animation: steaming1 6s linear infinite 14s; */
+    opacity: 0;
+    }
+    
+    @keyframes teaflow1{
+    10%{
+    height:300px;
+   
+    }
+    
+    100%{
+    height:300px;
+  
+    }
+    
+    }
+    @keyframes teaflow2{
+    10%{
+    height:300px; 
+    }
+    
+    100%{
+    height:300px;
+  
+    }
+    
+    }
+    @keyframes teaflow3{
+    10%{
+    height:295px;
+   
+    }
+    
+    100%{
+    height:295px;
+ 
+    }
+    
+    }
+    @keyframes teaflow4{
+    10%{
+    height:290px;
+   
+    
+    }
+    
+    100%{
+    height:290px;
+   
+    }
+    }
+
+    @media screen and (max-width:1200px){ 
+        .handle{
+            position:absolute;
+            left: 60%;
+        }
+    }
+    @media screen and (max-width:900px){ 
+        .handle{
+            position:absolute;
+            left: 62%;
+        }
+    }
+    @media screen and (max-width:800px){ 
+        .handle{
+            position:absolute;
+            left: 65%;
+        }
+    }
+    @media screen and (max-width:700px){ 
+        .handle{
+            position:absolute;
+            left: 68%;
+        }
+    }
