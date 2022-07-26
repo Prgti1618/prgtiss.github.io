@@ -785,7 +785,48 @@ height:610px;
 .clouds_body h1{
     color: white;
 }
-
+/* cup animation */
+.container.cup-container{
+    position:relative;
+    width:100vw;
+    height:600px;
+    margin-bottom: 100px;
+  
+}
+.cup-body button{
+    position: relative;
+    text-align: center;
+    background-color: #095044;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.container.button-code-cup{
+    background-color: #a2a2a2;
+    height: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.cup-body p{
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+   text-align: center;
+   margin: 10px;
+   
+}
+.cup-body h1{
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width:700px){
+    .container.cup-container{
+        transform: scale(.6);
+    }
+}
 
 @media screen and (min-width:700px){
     .teadiv{
