@@ -899,6 +899,15 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
     .container.cup-container{
         transform: scale(.6);
     }
+    .terms_bottom{
+        width:80vw;
+    }
+    .policy_bottom{
+        width:80vw;
+    }
+    .contact_bottom{
+        width:80vw;
+    }
 }
 
 @media screen and (min-width:700px){
