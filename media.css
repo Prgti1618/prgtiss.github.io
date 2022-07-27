@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing:content-box;
 }
-body{
-    width: 100%;
+.media-body{
+    width: 120%;
     height: 100%;
     background-color: rgb(223, 192, 165);
    
