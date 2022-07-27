@@ -825,6 +825,75 @@ height:610px;
 .cup-body #waveterms{
     width: 120vw;
 }
+/* bottom */
+
+.navbar_bottom{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #095044;
+}
+.navbar_bottom a{
+    background-color:  #095044;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.navbar_bottom a:active{
+    background-color: rgb(0, 86, 46);
+    color: rgb(255, 255, 255); 
+ }
+.navbar_bottom a:hover{
+   background-color: white;
+   color: rgb(0, 0, 0); 
+}
+.navbar_bottom a:focus{
+    background-color: #07986a;
+    box-shadow: none;
+}
+.terms_bottom{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 70vw;
+    border: 2px solid rgb(19, 190, 125);
+    color: rgb(196, 196, 196);
+    margin-top: 30px;
+    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.privacy_bottom{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 70vw;
+    color: rgb(196, 196, 196);
+    margin-top: 30px;
+    border: 2px solid rgb(19, 190, 125);
+    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.contact_bottom{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 70vw;
+    color: rgb(196, 196, 196);
+    margin-top: 30px;
+    border: 2px solid rgb(19, 190, 125);
+    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
 @media screen and (max-width:700px){
     .container.cup-container{
         transform: scale(.6);
