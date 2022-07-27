@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 192, 165);
+   
+}
+
+#social_icons{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 9.4rem;
+    text-align: center;
+    padding: 20px 0 50px 0;
+    background-color: rgb(68, 51, 37);
+}
+
+.floor{
+    width:100%;
+    height:30%;
+    position:absolute;
+    bottom: -44px;
+     background-color:rgb(169,130,95);
+    box-shadow: rgba(0,0,0,0.35) 0px -40px 26px -18px inset;    
+  z-index: -1;
+}
+#social_icons .iconn{
+   position: relative;
+   bottom:-60px;
+   width:5em;
+   height:7.2em;
+   padding:5px 10px;
+   margin:5px;
+   display: inline-block;
+   border-left: 19px inset rgb(169,130,95);
+   border-bottom: 10px inset rgb(169,130,95);
+   border-top-left-radius: 200px;
+   border-top-right-radius: 200px;
+   background-color: rgb(43,38,34);
+}
+#social_icons a{
+    color: rgb(96,77,77);
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size:50px;
+    position: relative;
+    top: 65px;
+    text-shadow: 3px 0 1.3px rgb(179,147,147);
+}
+
+.facebook:hover{
+ color: #3b5998;
+}
+.twitter:hover{
+ color: #38a;   
+}
+.instagram:hover{
+color: #e1306c;    
+}
+.plus:hover{
+color: #db4a39;
+}
+.youtube:hover{
+color: red;
+}
+
+@media only screen and (max-width:1200px){
+    #social_icons .iconn{
+        bottom: -61px;
+    }  
+}
+@media only screen and (max-width:998px){
+    #social_icons{
+        height: 7rem;
+    }
+    #social_icons .iconn{
+        width:4em;
+        height:6.2em;
+        bottom: -39px;
+    }  
+    #social_icons a{
+        font-size: 40px;
+        top: 60px;
+    } 
+    #social_icons .iconn{
+        border-left: 18px inset rgb(169,130,95);
+        border-bottom: 9px inset rgb(169,130,95); 
+    }
+}
+
+@media only screen and (max-width:768px){
+    #social_icons{
+        height: 6rem;
+    }
+    #social_icons .iconn{
+        width:3em;
+        height:5.2em;
+        bottom: -40px;
+    } 
+    #social_icons a{
+        font-size: 35px;
+        top: 50px;
+        right: 10px;
+    } 
+    #social_icons .iconn{
+        border-left: 17px inset rgb(169,130,95);
+        border-bottom: 8px inset rgb(169,130,95); 
+    } 
+}
+
+@media only screen and (max-width:645px){
+    #social_icons{
+        height: 5rem;
+    }
+    #social_icons .iconn{
+        width:2.5em;
+        height:4.7em;
+        bottom: -33px;
+    }  
+    #social_icons a{
+        font-size:30px;
+        top: 40px;
+    } 
+    #social_icons .iconn{
+        border-left: 16px inset rgb(169,130,95);
+        border-bottom: 7px inset rgb(169,130,95); 
+    }      
+}
+@media only screen and (max-width:576px){
+   
+    #social_icons .iconn{
+        width:2.3em;
+        height:4.4em;
+        bottom: -38px;
+    }  
+    #social_icons a{
+        font-size:30px;
+        top: 40px;
+        right: 10px;
+    } 
+    #social_icons .iconn{
+        border-left: 16px inset rgb(169,130,95);
+        border-bottom: 7px inset rgb(169,130,95); 
+    }       
+}
+
+
+@media only screen and (max-width:480px){
+    #social_icons .iconn{
+        width:1.5em;
+        height:3.7em;
+        bottom: -52px;
+    }  
+   
+    #social_icons a{
+        font-size:30px;
+        top: 30px;
+        right: 15px;
+    } 
+    #social_icons .iconn{
+        border-left: 13px inset rgb(169,130,95);
+        border-bottom: 5px inset rgb(169,130,95); 
+    }    
+}
