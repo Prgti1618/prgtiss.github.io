@@ -900,7 +900,11 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
     transform: translateX(-50%);
     width: 100vw;
 }
-
+.so-media .container.button-code{
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media screen and (max-width:700px){
     .container.cup-container{
         transform: scale(.6);
