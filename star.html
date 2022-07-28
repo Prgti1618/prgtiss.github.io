@@ -2,397 +2,427 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="free source codes for the Stars blinking animations by using HTML CSS and JS">
-<meta name="keywords" content="HTML, CSS, JavaScript, CSS animations, css effects, top css effects, animation, free source code, source codes, html5, css3, advanced css, transitions, keyframes, prgti, prgti free coder, css tutorial, html tutorial, blinking stars, blinking stars animation, star html css, star animation using css">
-<meta name="author" content="Pragati Ghanekar">
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5WG2BCC');</script>
-<!-- End Google Tag Manager -->
-  <title>Blinking star animation</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5WG2BCC');</script>
+    <!-- End Google Tag Manager -->
+    <title>Blinking stars animation</title>
+    <meta name="description" content="free source codes for the clay lamp animations by using HTML CSS and SVG">
+    <meta name="keywords"
+        content="HTML, CSS, JavaScript, CSS animations, css effects, top css effects, animation, free source code, source codes, html5, css3, advanced css, transitions, keyframes, prgti, prgti free coder, css tutorial, html tutorial, earthen clay lamp, clay lamp, earthen lamp animation, clay lamp animation, lamp animation">
+    <meta name="author" content="Pragati Ghanekar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0N32C8RT9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0N32C8RT9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config','G-F0N32C8RT9');
-</script>
-  <!-- adsence code -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3448255613446689"
-    crossorigin="anonymous"></script>
+        gtag('config', 'G-F0N32C8RT9');
+    </script>
+
+    <!-- adsence code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3448255613446689"
+        crossorigin="anonymous"></script>
 
 </head>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WG2BCC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <svg id="waveterms" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 420" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(24.707, 202.954, 148.612, 1)" offset="0%"></stop><stop stop-color="rgba(0, 0, 0, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,147L48,187.8C96,229,192,310,288,294C384,278,480,163,576,138.8C672,114,768,180,864,220.5C960,261,1056,278,1152,253.2C1248,229,1344,163,1440,138.8C1536,114,1632,131,1728,147C1824,163,1920,180,2016,204.2C2112,229,2208,261,2304,245C2400,229,2496,163,2592,179.7C2688,196,2784,294,2880,351.2C2976,408,3072,425,3168,432.8C3264,441,3360,441,3456,400.2C3552,359,3648,278,3744,277.7C3840,278,3936,359,4032,343C4128,327,4224,212,4320,196C4416,180,4512,261,4608,310.3C4704,359,4800,376,4896,367.5C4992,359,5088,327,5184,302.2C5280,278,5376,261,5472,220.5C5568,180,5664,114,5760,147C5856,180,5952,310,6048,318.5C6144,327,6240,212,6336,204.2C6432,196,6528,294,6624,343C6720,392,6816,392,6864,392L6912,392L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z"></path></svg>    
+<body style="background-color:black; color: white;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WG2BCC" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <svg id="waveterms" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 420" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(24.707, 202.954, 148.612, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(0, 0, 0, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,147L48,187.8C96,229,192,310,288,294C384,278,480,163,576,138.8C672,114,768,180,864,220.5C960,261,1056,278,1152,253.2C1248,229,1344,163,1440,138.8C1536,114,1632,131,1728,147C1824,163,1920,180,2016,204.2C2112,229,2208,261,2304,245C2400,229,2496,163,2592,179.7C2688,196,2784,294,2880,351.2C2976,408,3072,425,3168,432.8C3264,441,3360,441,3456,400.2C3552,359,3648,278,3744,277.7C3840,278,3936,359,4032,343C4128,327,4224,212,4320,196C4416,180,4512,261,4608,310.3C4704,359,4800,376,4896,367.5C4992,359,5088,327,5184,302.2C5280,278,5376,261,5472,220.5C5568,180,5664,114,5760,147C5856,180,5952,310,6048,318.5C6144,327,6240,212,6336,204.2C6432,196,6528,294,6624,343C6720,392,6816,392,6864,392L6912,392L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z">
+        </path>
+    </svg>
 
     <nav aria-label="breadcrumb" class="crumb bg-transperent">
-      <ol class="breadcrumb justify-content-center">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Blinking star animation</li>
-      </ol>
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Blinking stars animation</li>
+        </ol>
     </nav>
 
-  <div class="container-fluid">
-    <div class="youtubevideoin">
-    <video class="inpagevideos" controls controlsList="nodownload" >
-      <source src="stars.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    </div>
-    <h1 class="text-center">Blinking star animation using html and css only</h1>
-    <p class="text-center">here is a beautiful animation of blinking stars by using only html and css. </p>
-    <code><pre class="container">
-        &lt;!DOCTYPE html&gt;
-        &lt;html lang="en"&gt;
-        &lt;head&gt;
-            &lt;meta charset="UTF-8"&gt;
-            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-            &lt;title&gt;Document&lt;/title&gt;
-            &lt;link rel="stylesheet" href="style.css"&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-        &lt;header class="sky_bg"&gt;
-            &lt;div class="star1_wrap1 blink"&gt;&lt;/div&gt;
-            &lt;span class="star1"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap2 blink"&gt;&lt;/div&gt;
-            &lt;span class="star2"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap3 blink"&gt;&lt;/div&gt;
-            &lt;span class="star3"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap4 blink"&gt;&lt;/div&gt;
-            &lt;span class="star4"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap5 blink"&gt;&lt;/div&gt;
-            &lt;span class="star5"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap6 blink"&gt;&lt;/div&gt;
-            &lt;span class="star6"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap7 blink"&gt;&lt;/div&gt;
-            &lt;span class="star7"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap8 blink"&gt;&lt;/div&gt;
-            &lt;span class="star8"&gt;&lt;/span&gt;
-            &lt;div class="star1_wrap9 blink"&gt;&lt;/div&gt;
-            &lt;span class="star9"&gt;&lt;/span&gt;
-        &lt;div class="star1_wrap10 blink"&gt;&lt;/div&gt;
-        &lt;span class="star10"&gt;&lt;/span&gt;
-        &lt;div class="star1_wrap11 blink"&gt;&lt;/div&gt;
-        &lt;span class="star11"&gt;&lt;/span&gt;
-        &lt;div class="star1_wrap12 blink"&gt;&lt;/div&gt;
-        &lt;span class="star12"&gt;&lt;/span&gt;
-        &lt;div class="star1_wrap13 blink"&gt;&lt;/div&gt;
-        &lt;span class="star13"&gt;&lt;/span&gt;
-    &lt;/header&gt;      
-&lt;/body&gt;
-&lt;/html&gt;
+    <div class="container-fluid" style="background-color:black; color: white;">
+        <h1 class="text-center">Blinking stars animation by using html and css and svg.
+        </h1>
+        <p class="text-center">Blinking stars animation by <a
+                href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
 
-       </pre></code>
+        <div class="container raining-container" style="background-color:black; color: white;">
+            <figure>
+                <img id="thumb-star" src="images/blinkingstarsnap.PNG" alt="blinking stars gif">
+                <button type="button" class="btn"
+                    onclick='document.getElementById("thumb-star").src="images/blinkingstar.gif"'>click to see
+                    animation</button>
+                <button type="button" class="btn"
+                    onclick='document.getElementById("thumb-star").src="images/blinkingstarsnap.PNG"'>stop animation</button>
+            </figure>
+        </div>
+        <p class="rain-para" style="font-size:25px;">
+            twinkle.. twinkle.. littile star.. how i wonder what you are!!? stars are always wondrous thing for me. so here is one more night sky animation for blinking stars.. see the below html code:   </p>
+        <code>
+<pre class="container button-code" style="background-color:black; color: white;">
+<xmp>
+    <body>
+        <header class="sky_bg">
+            <div class="star1_wrap1 blink"></div>
+            <span class="star1"></span>
+            <div class="star1_wrap2 blink"></div>
+            <span class="star2"></span>
+            <div class="star1_wrap3 blink"></div>
+            <span class="star3"></span>
+            <div class="star1_wrap4 blink"></div>
+            <span class="star4"></span>
+            <div class="star1_wrap5 blink"></div>
+            <span class="star5"></span>
+            <div class="star1_wrap6 blink"></div>
+            <span class="star6"></span>
+            <div class="star1_wrap7 blink"></div>
+            <span class="star7"></span>
+            <div class="star1_wrap8 blink"></div>
+            <span class="star8"></span>
+            <div class="star1_wrap9 blink"></div>
+            <span class="star9"></span>
+            <div class="star1_wrap10 blink"></div>
+            <span class="star10"></span>
+            <div class="star1_wrap11 blink"></div>
+            <span class="star11"></span>
+            <div class="star1_wrap12 blink"></div>
+            <span class="star12"></span>
+            <div class="star1_wrap13 blink"></div>
+            <span class="star13"></span>
+        </header>
+        
+    </body>
+    </xmp>
+    </pre>
+    </code>
+        <br>
+        <p class="rain-para" style="background-color:black; color: white; font-size:25px;">
+            see the below css code for blinking stars:</p>
+        <code>
+        <pre class="container button-code" style="background-color:black; color: white;">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                transition: ease all 0.5s;
+            }
+            
+            .sky_bg{
+                background-color: rgb(2, 1, 11);
+                width: 100vw;
+                height: 110vh;
+            }
+            
+            /* queries for stars */
+             header span{
+                 background-color:white;
+                 position: absolute;
+                 height: 100px;
+                 width: 100px;
+                 z-index: 1;
+                 clip-path: polygon(50% 0%, 52% 37%, 98% 35%, 56% 44%, 79% 91%, 51% 48%, 21% 91%, 44% 45%, 2% 35%, 46% 38%);
+             }
+            
+             header .star1{
+                 transform: rotate(20deg);
+                 position: absolute;
+                 top: 50px;
+                 right: 30px;
+                 animation: pulsate .3s ease-in-out infinite;
+                 z-index: 0;   
+            
+             }
+             header .star2{
+                transform: rotate(-20deg);
+                position: absolute;
+                top: 228px;
+                right: 157px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star3{
+                transform: rotate(40deg);
+                position: absolute;
+                top: 530px;
+                right: 777px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star4{
+                transform: rotate(60deg);
+                position: absolute;
+                top: 270px;
+                right: 786px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star5{
+                transform: rotate(80deg);
+                position: absolute;
+                top: 375px;
+                right: 1086px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star6{
+                transform: rotate(100deg);
+                position: absolute;
+                top: 225px;
+                right: 474px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star7{
+                transform: rotate(120deg);
+                position: absolute;
+                top: 423px;
+                right: 475px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star8{
+                transform: rotate(150deg);
+                position: absolute;
+                top: 600px;
+                right: 1240px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star9{
+                transform: rotate(180deg);
+                position: absolute;
+                top: 38px;
+                right: 315px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;      
+            }
+            header .star10{
+                transform: rotate(200deg);
+                position: absolute;
+                top: 605px;
+                right: 206px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star11{
+                transform: rotate(150deg);
+                position: absolute;
+                top: 108px;
+                right: 597px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star12{
+                transform: rotate(180deg);
+                position: absolute;
+                top: 63px;
+                right:905px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            header .star13{
+                transform: rotate(200deg);
+                position: absolute;
+                top: 74px;
+                right:1139px;
+                animation: pulsate .3s ease-in-out infinite;
+                z-index: 0;
+            }
+            /* queries for stars end */
+            
+            /* queries for star's blinking light */
+            
+            .sky_bg .blink{
+                padding: 10px;
+                background-color:white;
+                animation: borderchange .3s linear infinite;
+                box-shadow: 0 0 0 500px white;
+                border-radius: 50%;
+            }
+            .sky_bg .star1_wrap1{
+                position: absolute;
+                top: 82px;
+                right: 69px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap2{
+                position: absolute;
+                top: 262px;
+                right: 201px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap3{
+                position: absolute;
+                top: 564px;
+                right: 813px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap4{
+                position: absolute;
+                top: 305px;
+                right: 820px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap5{
+                position: absolute;
+                top: 414px;
+                right: 1120px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap6{
+                position: absolute;
+                top: 266px;
+                right: 506px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap7{
+                position: absolute;
+                top: 467px;
+                right: 509px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap8{
+                position: absolute;
+                top: 647px;
+                right: 1278px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap9{
+                position: absolute;
+                top: 85px;
+                right: 356px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap10{
+                position: absolute;
+                top: 652px;
+                right: 248px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap11{
+                position: absolute;
+                top: 152px;
+                right: 634px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap12{
+                position: absolute;
+                top: 110px;
+                right: 946px;
+                z-index: 1;
+            }
+            .sky_bg .star1_wrap13{
+                position: absolute;
+                top: 122px;
+                right:1180px;
+                z-index: 1;
+            }
+            /* queries for star's blinking light end */
+             
+            
+            /* animation for blinking background */
+            @keyframes borderchange{
+                0%{
+                  box-shadow: 0 0 15px  white,
+                              0 0 50px  white,
+                              0 0 75px  white,
+                              0 0 15px  white,
+                              0 0 50px  white,
+                              0 0 75px  white,
+                              0 0 15px  white,
+                              0 0 50px  white,
+                              0 0 75px  white;          
+                }
+                50%{
+                  box-shadow: none;
+                }
+                100%{
+                    box-shadow: 0 0 15px  white,
+                    0 0 50px  white,
+                    0 0 75px  white,
+                    0 0 15px white,
+                    0 0 50px white,
+                    0 0 75px white,
+                    0 0 15px white,
+                    0 0 50px white,
+                    0 0 75px white;    
+                }
+            }
+            
+            /* blinking star animation */
+            @keyframes pulsate{
+                0%{
+            
+                    clip-path: polygon(50% 0%, 52% 37%, 98% 35%, 56% 44%, 79% 91%, 51% 48%, 21% 91%, 44% 45%, 2% 35%, 46% 38%);
+                }
+                50%{
+            
+                    clip-path: polygon(48% 21%, 53% 41%, 72% 40%, 54% 45%, 61% 57%, 49% 45%, 39% 59%, 43% 45%, 27% 40%, 46% 40%);
+                }
+                100%{
+            
+                    clip-path: polygon(50% 0%, 52% 37%, 98% 35%, 56% 44%, 79% 91%, 51% 48%, 21% 91%, 44% 45%, 2% 35%, 46% 38%);
+                }
+            }
+            
+            
+        </pre>
+    </code>
+       
+</div>
 
-<code><pre class="container">
-       *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        transition: ease all 0.5s;
-    }
-    
-    .sky_bg{
-        background-color: rgb(2, 1, 11);
-        width: 100vw;
-        height: 110vh;
-    }
-    
-    /* queries for stars */
-     header span{
-         background-color:white;
-         position: absolute;
-         height: 100px;
-         width: 100px;
-         z-index: 1;
-         clip-path: polygon(50% 0%, 52% 37%, 98% 35%, 56% 44%, 79% 91%, 51% 48%, 21% 91%, 44% 45%, 2% 35%, 46% 38%);
-     }
-    
-     header .star1{
-         transform: rotate(20deg);
-         position: absolute;
-         top: 50px;
-         right: 30px;
-         animation: pulsate .3s ease-in-out infinite;
-         z-index: 0;   
-    
-     }
-     header .star2{
-        transform: rotate(-20deg);
-        position: absolute;
-        top: 228px;
-        right: 157px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star3{
-        transform: rotate(40deg);
-        position: absolute;
-        top: 530px;
-        right: 777px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star4{
-        transform: rotate(60deg);
-        position: absolute;
-        top: 270px;
-        right: 786px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star5{
-        transform: rotate(80deg);
-        position: absolute;
-        top: 375px;
-        right: 1086px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star6{
-        transform: rotate(100deg);
-        position: absolute;
-        top: 225px;
-        right: 474px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star7{
-        transform: rotate(120deg);
-        position: absolute;
-        top: 423px;
-        right: 475px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star8{
-        transform: rotate(150deg);
-        position: absolute;
-        top: 600px;
-        right: 1240px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star9{
-        transform: rotate(180deg);
-        position: absolute;
-        top: 38px;
-        right: 315px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;      
-    }
-    header .star10{
-        transform: rotate(200deg);
-        position: absolute;
-        top: 605px;
-        right: 206px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star11{
-        transform: rotate(150deg);
-        position: absolute;
-        top: 108px;
-        right: 597px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star12{
-        transform: rotate(180deg);
-        position: absolute;
-        top: 63px;
-        right:905px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    header .star13{
-        transform: rotate(200deg);
-        position: absolute;
-        top: 74px;
-        right:1139px;
-        animation: pulsate .3s ease-in-out infinite;
-        z-index: 0;
-    }
-    /* queries for stars end */
-    
-    /* queries for star's blinking light */
-    
-    .sky_bg .blink{
-        padding: 10px;
-        background-color:white;
-        animation: borderchange .3s linear infinite;
-        box-shadow: 0 0 0 500px white;
-        border-radius: 50%;
-    }
-    .sky_bg .star1_wrap1{
-        position: absolute;
-        top: 82px;
-        right: 69px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap2{
-        position: absolute;
-        top: 262px;
-        right: 201px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap3{
-        position: absolute;
-        top: 564px;
-        right: 813px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap4{
-        position: absolute;
-        top: 305px;
-        right: 820px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap5{
-        position: absolute;
-        top: 414px;
-        right: 1120px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap6{
-        position: absolute;
-        top: 266px;
-        right: 506px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap7{
-        position: absolute;
-        top: 467px;
-        right: 509px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap8{
-        position: absolute;
-        top: 647px;
-        right: 1278px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap9{
-        position: absolute;
-        top: 85px;
-        right: 356px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap10{
-        position: absolute;
-        top: 652px;
-        right: 248px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap11{
-        position: absolute;
-        top: 152px;
-        right: 634px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap12{
-        position: absolute;
-        top: 110px;
-        right: 946px;
-        z-index: 1;
-    }
-    .sky_bg .star1_wrap13{
-        position: absolute;
-        top: 122px;
-        right:1180px;
-        z-index: 1;
-    }
-    /* queries for star's blinking light end */
-     
-    
-    /* animation for blinking background */
-    @keyframes borderchange{
-        0%{
-          box-shadow: 0 0 15px  white,
-                      0 0 50px  white,
-                      0 0 75px  white,
-                      0 0 15px  white,
-                      0 0 50px  white,
-                      0 0 75px  white,
-                      0 0 15px  white,
-                      0 0 50px  white,
-                      0 0 75px  white;          
-        }
-        50%{
-          box-shadow: none;
-        }
-        100%{
-            box-shadow: 0 0 15px  white,
-            0 0 50px  white,
-            0 0 75px  white,
-            0 0 15px white,
-            0 0 50px white,
-            0 0 75px white,
-            0 0 15px white,
-            0 0 50px white,
-            0 0 75px white;    
-        }
-    }
-    
-    /* blinking star animation */
-    @keyframes pulsate{
-        0%{
-    
-            clip-path: polygon(50% 0%, 52% 37%, 98% 35%, 56% 44%, 79% 91%, 51% 48%, 21% 91%, 44% 45%, 2% 35%, 46% 38%);
-        }
-        50%{
-    
-            clip-path: polygon(48% 21%, 53% 41%, 72% 40%, 54% 45%, 61% 57%, 49% 45%, 39% 59%, 43% 45%, 27% 40%, 46% 40%);
-        }
-        100%{
-    
-            clip-path: polygon(50% 0%, 52% 37%, 98% 35%, 56% 44%, 79% 91%, 51% 48%, 21% 91%, 44% 45%, 2% 35%, 46% 38%);
-        }
-    }
-</pre></code>
-<div class="youtubevideoin">
-<iframe src="https://www.youtube.com/embed/ghKCCWA7MD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-</div>
+<br>
 
 <div class="credit">
     <a class="navbar-brand nameplate" style="color:white ;" href="index.html">PRGTI free coder</a>
     <div class="socialmedia">
-      <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/pragati1441"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://in.pinterest.com/pragati004/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-      <a href="mailto:pragatighanekar04@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q"><i class="fa fa-youtube-play"
+                aria-hidden="true"></i></a>
+        <a href="https://twitter.com/pragati1441"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://in.pinterest.com/pragati004/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+        <a href="mailto:pragatighanekar04@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
     </div>
-  
+
     <a href="terms.html">Terms and Conditions</a><br>
     <a href="privacypolicy.html">Privacy Policy</a><br>
     <a href='https://www.freepik.com/vectors/backend'>Backend vector created by storyset - www.freepik.com</a><br>
-    <a href='https://www.freepik.com/vectors/watercolor-wallpaper'>Watercolor wallpaper vector created by freepik - www.freepik.com</a>
-  </div>
-  <div class="copyright_info">
-    <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2022 <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder.</a> All Rights Reserved.</p>
-    </div>
+    <a href='https://www.freepik.com/vectors/watercolor-wallpaper'>Watercolor wallpaper vector created by freepik -
+        www.freepik.com</a>
+</div>
+<div class="copyright_info">
+    <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2022 <a
+            href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder.</a> All Rights
+        Reserved.</p>
+</div>
 
 </div>
 
