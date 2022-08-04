@@ -925,7 +925,32 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
     padding: 20px;
     box-shadow: none;
 }
-
+.container.tube-container{
+    position:relative;
+    width:90vw;
+    height:650px;
+}
+.tube-body{
+    background: linear-gradient(163deg, transparent 0px, transparent 1px, #101010 1px, #101010 14px, transparent 14px), linear-gradient(161deg, transparent 0px, #101010 1px, #101010 2px, #101010 15px, transparent 15px), linear-gradient(343deg, transparent 0px, transparent 1px, #101010 1px, #101010 14px, transparent 14px), linear-gradient(343deg, transparent 0px, transparent 1px, #101010 1px, #101010 14px, transparent 14px);
+    background-color: #171717;
+    background-position: 2px 1px, 23px 16px, 48px 15px,21px 30px;
+    background-size: 3em 1.9em;
+}
+.container.code-tube{
+    background-color: transparent;
+    font-size: 1.1em;
+    color: rgb(192, 192, 192);
+    overflow: visible;
+    position:relative;
+    display: inline-block;
+}
+.tube-body p{
+    color: white;
+    font-size: 1.1em;
+}
+.tube-body h1{
+    color: white;
+}
 
 @media screen and (max-width:700px){
     .container.cup-container{
