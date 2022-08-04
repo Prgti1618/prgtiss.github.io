@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubelight animation HTML CSS JavaScript</title>
+    <meta name="description"
+        content="Tubelight on the wall animation by using HTML CSS and JavaScript complete code snippet">
+    <meta name="keywords"
+        content="tubelight, tubelight animation, tubelight html css, tubelight animation code snippet, tubelight html css js code snippet">
+    <meta name="author" content="Pragati Ghanekar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- adsence code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3448255613446689"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body class="tube-body">
+    <svg id="waveterms" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 420" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(24.707, 202.954, 148.612, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(0, 0, 0, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,147L48,187.8C96,229,192,310,288,294C384,278,480,163,576,138.8C672,114,768,180,864,220.5C960,261,1056,278,1152,253.2C1248,229,1344,163,1440,138.8C1536,114,1632,131,1728,147C1824,163,1920,180,2016,204.2C2112,229,2208,261,2304,245C2400,229,2496,163,2592,179.7C2688,196,2784,294,2880,351.2C2976,408,3072,425,3168,432.8C3264,441,3360,441,3456,400.2C3552,359,3648,278,3744,277.7C3840,278,3936,359,4032,343C4128,327,4224,212,4320,196C4416,180,4512,261,4608,310.3C4704,359,4800,376,4896,367.5C4992,359,5088,327,5184,302.2C5280,278,5376,261,5472,220.5C5568,180,5664,114,5760,147C5856,180,5952,310,6048,318.5C6144,327,6240,212,6336,204.2C6432,196,6528,294,6624,343C6720,392,6816,392,6864,392L6912,392L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z">
+        </path>
+    </svg>
+
+    <nav aria-label="breadcrumb" class="crumb bg-transperent">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Tubelight animation HTML CSS JS code snippet</li>
+        </ol>
+    </nav>
+
+    <div class="container-fluid m-0 p-0">
+
+        <h1 class="text-center">Tubelight animation by using HTML and CSS and JS.
+        </h1>
+        <p class="text-center">here is a beautiful animation of Tubelight by <a
+                href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+        <br><br>
+        <div class="container tube-container">
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <link rel="stylesheet" href="tube.css">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+            </head>
+
+            <body class="body_name">
+                <div class="container-fluid">
+                    <div class="button-block">
+                        <button class="onoff" onclick="lightstart()">ON</button><button class="onoff"
+                            onclick="lightend()">OFF</button>
+                    </div>
+                    <div class="newproject">
+                        <div class="tube">
+                        </div>
+                        <div class="light-remove"></div>
+                        <span class="spooo">Holiday special offer<br>
+                            valid till 31st august 2022<br>
+                            20% OFF on order above $50<br>
+                            5% OFF on order below $50<br><br>
+                            <a href="#" class="btn btn-secondary">click to order</a></span>
+                    </div>
+                </div>
+
+                <script>
+                    const mainWallm = document.querySelector(".newproject");
+                    const lightOnm = document.querySelector(".tube");
+                    const removelinearm = document.querySelector(".light-remove");
+                    const spnm = document.querySelector(".spooo");
+                    const spnanchom = document.querySelector(".spooo a");
+
+
+                    function lightstart() {
+                        mainWallm.style.backgroundColor = "#383838";
+                        lightOnm.style.background = "none";
+                        lightOnm.style.backgroundColor = "white";
+                        lightOnm.style.boxShadow = "0px 2px 10px 1px rgb(255, 255, 255)";
+                        removelinearm.classList.remove("light-remove");
+                        removelinearm.classList.add("light");
+                        spnm.style.color = "white";
+                        spnm.style.textShadow = "-2px 6px 0 rgba(0,0,0,0.9)";
+                        spnm.style.backgroundClip = "text";
+                        spnanchom.style.backgroundColor = "grey";
+                        spnanchom.style.cursor = "pointer";
+                    }
+
+
+                    function lightend() {
+                        mainWallm.style.backgroundColor = "#2d2d2d";
+                        lightOnm.style.background = "linear-gradient(180deg, rgba(208,207,207,1) 52%, rgba(68,68,68,1) 100%)";
+                        lightOnm.style.backgroundColor = "none";
+                        lightOnm.style.boxShadow = "none";
+                        removelinearm.classList.remove("light");
+                        removelinearm.classList.add("light-remove");
+                        spnm.style.color = "rgb(68, 67, 67)";
+                        spnm.style.textShadow = "none";
+                        spnm.style.backgroundClip = "text";
+                        spnanchom.style.backgroundColor = "#222";
+                        spnanchom.style.cursor = "pointer";
+                    }
+
+                </script>
+
+            </body>
+
+            </html>
+        </div>
+        <div class="container">
+            <p>Here in this project we are going to see Tubelight on/off animation by using HTML CSS anf JavaScript. click "ON" or "OFF" button to see the animation. so here we are learning to style tubelight, tubelight's flash, wall and on/off buttons. we can use this animation in websites too, to make interesting for visitors. see the below html code:</p>
+                <code>
+    <pre class="container code-tube" >
+        <xmp>
+            <body class="body_name">
+                <div class="container-fluid">
+                   <div class="button-block">
+                   <button class="onoff" onclick="lightstart()">ON</button><button class="onoff" onclick="lightend()">OFF</button>
+                 </div>
+                   <div class="newproject">
+                    <div class="tube">
+                    </div>
+                    <div class="light-remove"></div>
+                    <span class="spooo">Holiday special offer<br>
+                   valid till 31st august 2022<br>
+                   20% OFF on order above $50<br>
+                   5% OFF on order below $50<br><br>
+                <a href="#" class="btn btn-secondary">click to order</a></span>
+                 </div>   
+                </div>
+                </body>
+            </html>
+        </xmp>
+    </pre>
+</code>
+                <br>
+            <p>now we will do light on/off, and other related changes like light-flash on wall, brightened texts and it's shadow under light with the help of js. we'll add properties by onclick on "ON" button and remove properties by onclick on "OFF" button. see the below JS code:</p>
+            <code>
+    <pre class="container code-tube" style="font-size: 1.3em;">
+        <xmp>
+            <script>
+                const mainWall = document.querySelector(".newproject");
+                const lightOn = document.querySelector(".tube");
+                const removelinear = document.querySelector(".light-remove");
+                const spn = document.querySelector(".spooo");
+                const spnancho = document.querySelector(".spooo a");
+
+
+                function lightstart() {
+                    mainWall.style.backgroundColor = "#383838";
+                    lightOn.style.background = "none";
+                    lightOn.style.backgroundColor = "white";
+                    lightOn.style.boxShadow = "0px 2px 10px 1px rgb(255, 255, 255)";
+                    removelinear.classList.remove("light-remove");
+                    removelinear.classList.add("light");
+                    spn.style.color = "white";
+                    spn.style.textShadow = "-2px 6px 0 rgba(0,0,0,0.9)";
+                    spn.style.backgroundClip = "text";
+                    spnancho.style.backgroundColor = "grey";
+                    spnancho.style.cursor = "pointer";
+                }
+
+
+                function lightend() {
+                    mainWall.style.backgroundColor = "#2d2d2d";
+                    lightOn.style.background = "linear-gradient(180deg, rgba(208,207,207,1) 52%, rgba(68,68,68,1) 100%)";
+                    lightOn.style.backgroundColor = "none";
+                    lightOn.style.boxShadow = "none";
+                    removelinear.classList.remove("light");
+                    removelinear.classList.add("light-remove");
+                    spn.style.color = "rgb(68, 67, 67)";
+                    spn.style.textShadow = "none";
+                    spn.style.backgroundClip = "text";
+                    spnancho.style.backgroundColor = "#222";
+                    spnancho.style.cursor = "pointer";
+                }
+
+            </script>
+        </xmp>
+    </pre>
+</code>
+            <br>
+            <p>here we are done with html and JS code now let's see css style. see the below CSS code.</p>
+            <br>
+            <code>
+    <pre class="container code-tube" style="font-size: 1.3em;">
+       
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body_name{
+            width: 100vw;
+            height: auto;
+            background-color: rgb(255, 255, 255);
+        }
+        .newproject{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 500px;
+            z-index: 0;
+            background: linear-gradient(163deg, transparent 0px, transparent 1px, #222 1px, #222 14px, transparent 14px), linear-gradient(161deg, transparent 0px, #181818 1px, #222 2px, #222 15px, transparent 15px), linear-gradient(343deg, transparent 0px, transparent 1px, #222 1px, #222 14px, transparent 14px), linear-gradient(343deg, transparent 0px, transparent 1px, #222 1px, #222 14px, transparent 14px);
+            background-color: #2d2d2d;
+            background-position: 2px 1px, 23px 16px, 48px 15px,21px 30px;
+            background-size: 3em 1.9em;
+        }
+        .tube{
+            position: relative;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 25em;
+            height: 20px;
+            background: linear-gradient(180deg, rgba(208,207,207,1) 52%, rgba(68,68,68,1) 100%);
+            border-radius: 50px;
+            z-index: 2;
+        }
+        .light{
+            position: relative;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 660px;
+            height: 450px;
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            background: linear-gradient(180deg, rgba(255,255,255,.2) 10%, rgba(255,255,255,0) 80%);
+            z-index: 1;
+            filter: blur(5px);
+            display: inline-block;
+        }
+        .light-remove{
+            position: relative;
+            top: -20px;
+            width: 600px;
+            height: 500px;
+            background-color: rgba(0, 0, 0, .5);
+            z-index: 0;
+            
+        }
+        .spooo{
+            z-index: 4;
+            position:absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: rgb(68, 67, 67);
+            line-height: 1.5;
+            font-family: 'Merienda', cursive;
+            font-size: 1.5em;
+        }
+        .spooo a{
+            z-index: 4;
+            text-decoration: none;
+            padding: .8em 1.5em;
+            background-color: #222;
+            color: #181818;
+            text-shadow: none;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+        .spooo a:focus{
+            box-shadow: none;
+        }
+        .button-block{
+            width: 100vw;
+            text-align: center;
+        }
+        .onoff{
+            position:relative;
+            padding: 20px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+            margin-bottom: 10px;
+        }
+       
+   .onoff:focus{
+    outline: none;
+    background-color: rgb(35, 143, 139);
+    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: white;
+  }
+        @media screen and (max-width:600px){
+            .newproject{
+                width: 100vw;
+            }
+            .tube{
+                width: 61vw;
+            }
+            .light{
+                width: 100vw;
+            }
+            .light-remove{
+               width: 100vw;
+            }
+        }
+       
+    </pre>
+</code>
+            <br>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="credit button-credit">
+            <a class="navbar-brand nameplate" style="color:white ;" href="index.html">PRGTI free coder</a>
+            <div class="socialmedia">
+                <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q"><i class="fa fa-youtube-play"
+                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/pragati1441"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://in.pinterest.com/pragati004/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="mailto:pragatighanekar04@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+
+            <a href="terms.html">Terms and Conditions</a><br>
+            <a href="privacypolicy.html">Privacy Policy</a><br>
+            <a href='https://www.freepik.com/vectors/backend'>Backend vector created by storyset -
+                www.freepik.com</a><br>
+            <a href='https://www.freepik.com/vectors/watercolor-wallpaper'>Watercolor wallpaper vector created by
+                freepik -
+                www.freepik.com</a>
+        </div>
+        <div class="copyright_info">
+            <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2022 <a
+                    href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder.</a> All Rights
+                Reserved.</p>
+        </div>
+
+        </div>
+    </footer>
+</body>
+
+
+</html>
