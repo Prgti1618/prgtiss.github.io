@@ -7,14 +7,14 @@
     position: relative;
     margin: 0;
     padding: 0;
-    width:120vw;
+    width:100vw;
     height:auto;
 }
 .container-fluid{
     position: relative;
     margin: 0;
     padding: 0;
-    width: 120vw;
+    width: 100vw;
     height:45vw;
     left: 50%;
     transform: translateX(-50%);
@@ -24,7 +24,7 @@
    z-index: 99999;
 }
 .ghost_body{
-    width: 120vw;
+    width: 100vw;
     overflow-X: hidden;
     background-color: black;
 }
