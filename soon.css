@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:45vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    background-image: url("images/wooden.jpg");
+    background-size: contain;
+   z-index: 99999;
+}
+.ghost_body{
+    width: 100vw;
+    overflow-X: hidden;
+    background-color: black;
+}
+
+.door{
+    position:absolute;
+    top:5vw;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    width: 36vw;
+    height:40vw;
+    z-index: 0;
+    background-size: 1em 1em;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("images/wooden.jpg");
+    background-size: cover;
+    transform-origin:right;
+  transition: transform .45s;
+  animation-fill-mode: forwards;
+}
+.doorframe{
+    text-align: center;
+    justify-content: center;
+    width: 36vw;
+    height:40vw;
+    position: relative;
+    top: 5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 1.7vw inset rgb(125, 58, 0);
+border-bottom: 1.4vw inset rgb(14, 7, 0);
+border-top: 1.4vw inset rgb(15, 7, 0);
+    z-index: 3;
+    box-shadow: inset 0.46vw 0.46vw 2.3vw 0px rgba(0,0,0,0.75);
+   
+}
+.windowframe{
+    text-align: center;
+    justify-content: center;
+    width: 26vw;
+    height:20vw;
+    position: absolute;
+    top: 5vw;
+    right: 2%;
+    transform: translateX(-2%);
+    border-left: 1vw inset rgb(78, 37, 1);
+border-bottom: 1vw inset rgb(78, 36, 0);
+border-top: 1.4vw inset rgb(15, 7, 0);
+    z-index: 3;
+    box-shadow: inset 0.46vw 0.46vw 2.3vw 0px rgba(0,0,0,0.75);
+   
+}
+.door::after{
+    content: '';
+    width:5vw;
+    height:5vw;
+    border-radius: 50%;
+    box-shadow: 0.76vw 0.76vw 0.38vw 0px rgba(0,0,0,0.75);
+    background: radial-gradient(circle, rgba(156, 124, 106, 0.981) 0%, rgba(55, 36, 24, 0.858) 32%);
+   position:absolute;
+   top: 17vw;
+   left: 3vw;  
+   z-index: 4;
+}
+
+
+  @keyframes doormovement{
+    0%{
+    
+    }
+    100%{
+    transform: perspective(1200px) rotateY(-80deg);
+    
+    }
+    }
+   .my-btn{
+      text-align: center;
+      margin-top: 100px;
+   }
+   .my-btn button{
+    background-color: rgb(76, 0, 0);
+    color: white;
+   }
+   .my-btn button:focus{
+    background-color: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
+    outline: none;
+   }
+    .room{
+        position:absolute;
+        width: 35vw;
+        height:40vw;
+        top: 5vw;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        justify-content: center;
+        z-index: -3;
+        background:url("images/ghost2.jpg");
+        background-position:center;
+        background-size:cover;
+       
+    }
+    .room2{
+        position:absolute;
+        width: 26vw;
+        height:20vw;
+        top: 5vw;
+        right: 2%;
+        transform: translateX(-2%);
+        text-align: center;
+        justify-content: center;
+        z-index: -3;
+        background:url("images/ghost2.jpg");
+        background-position:right;
+        background-size:70vw;
+       
+    }
+    .windowdoor{
+        width: 26vw;
+        height:20vw;
+        position: absolute;
+        top: 5vw;
+        right: 2%;
+        transform: translateX(-2%);
+        background: repeating-radial-gradient(circle, rgba(131, 55, 5, 0.514) 40%, rgba(0, 0, 0, 1) 90%);
+opacity: .5;
+transform-style: preserve-3d;
+background-size: 1em 1em;
+clip-path: polygon(100% 0, 47% 0, 47% 13%, 48% 30%, 51% 46%, 55% 67%, 55% 89%, 50% 100%, 100% 100%);
+animation: ray1 4s ease-in-out infinite;
+    }
+    @keyframes ray1{
+        0%{
+        
+        }
+        50%{
+        clip-path: polygon(100% 0, 47% 0, 44% 17%, 43% 30%, 44% 48%, 46% 72%, 49% 92%, 50% 100%, 100% 100%);
+        }
+        100%{
+        clip-path: polygon(100% 0, 47% 0, 47% 13%, 48% 30%, 51% 46%, 55% 67%, 55% 89%, 50% 100%, 100% 100%);
+        }
+        } 
+
+        .bell{
+            position: absolute;
+            top: 5vw;
+            left: 20%;
+            transform: translateX(-30%);
+            cursor: pointer;
+        }
+        .bell .fa{
+            color: rgb(255, 255, 255);
+            font-size: 3vw;
+            padding: 10px;
+            background-color: rgb(68, 37, 0);
+            cursor: pointer;
+        }
+        .bell .fa:active{
+            color: rgb(73, 33, 4);
+            background-color: rgb(211, 159, 122);
+        }
+
+        .container.code-ghost{
+            background-color: transparent;
+            font-size: 1.1em;
+            color: rgb(192, 192, 192);
+            overflow: visible;
+            position:relative;
+            height: auto;
+            inline-size: 80vw;
+            display: inline-block;
+            word-break: break-word;
+            white-space: pre-line;
+            overflow-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+            
+        }
+        .container.code-ghost xmp{
+            background-color: transparent;
+            font-size: 1.1em;
+            color: rgb(192, 192, 192);
+            overflow: visible;
+            position:relative;
+            height: auto;
+            inline-size: 80vw;
+            display: inline-block;
+            word-break: break-word;
+            white-space: pre-line;
+            overflow-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+            
+        }
+        .crumb .breadcrumb{
+          background-color: black;
+          margin-bottom: 100px;
+        }
+        .hello{
+            margin-top: 100px;
+        }
+        p{
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        h1{
+            color: white;
+        }
+
+        .footer{
+            width: 100vw;
+            height: 1800px;
+            background-color: white;
+        }
+        .copyright_info{
+            text-align: center;
+            color: #095044;
+        }
+        .copyright_info .fa{
+            color:#095044;
+        }
+        .credit{
+            text-align: center;
+           margin-bottom: 10px;
+        }
+        .credit a{
+            color:#095044;
+            margin-top: 50px;
+        }
+        .credit .socialmedia .fa{
+            color: #095044;
+            margin-top: 50px;
+            font-size: 30px;
+        }
+        .credit .nameplate{
+            margin-right: 200px;
+           
+        }
+        .wavetermsdown{
+            bottom: 0;
+        }
+        #wavedown{
+            position:relative;
+            top:-20px;
+        }
+        .nameplate{
+            position: relative;
+            top: 10px;
+            left: 100px;
+            height: 70px;
+            padding: 20px;
+            color: rgb(252, 242, 244);
+            font-size:20px;
+             border-radius: 15px 50px; 
+             font-family: 'Merienda One', cursive;
+             text-shadow:0 0 10px black;
+             animation: colorchange 3s ease-in-out infinite;
+             background: linear-gradient(90deg, rgb(60, 137, 130) 0%, rgb(17, 65, 68) 33%);
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+
+        .button-credit a i.fa{
+            color: white;
+            font-size: 2em;
+            padding: 20px;
+        }
+        
+        .button-credit a i.fa:hover{
+            color: rgb(255, 255, 255);
+        }
