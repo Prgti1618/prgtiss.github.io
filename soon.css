@@ -271,10 +271,7 @@ animation: ray1 4s ease-in-out infinite;
             margin-top: 50px;
             font-size: 30px;
         }
-        .credit .nameplate{
-            margin-right: 200px;
-           
-        }
+        
         .wavetermsdown{
             bottom: 0;
         }
@@ -284,8 +281,6 @@ animation: ray1 4s ease-in-out infinite;
         }
         .nameplate{
             position: relative;
-            top: 10px;
-            left: 100px;
             height: 70px;
             padding: 20px;
             color: rgb(252, 242, 244);
@@ -297,7 +292,12 @@ animation: ray1 4s ease-in-out infinite;
              background: linear-gradient(90deg, rgb(60, 137, 130) 0%, rgb(17, 65, 68) 33%);
             box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
         }
-
+.credit .nameplate{
+            position: absolute;
+            left:50%;
+            transform: translateX(-50%);
+           
+        }
         .button-credit a i.fa{
             color: white;
             font-size: 2em;
