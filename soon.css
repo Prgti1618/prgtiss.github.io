@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.ghost_body .fluidycontain{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:auto;
+}
 .container-fluid{
     position: relative;
     margin: 0;
