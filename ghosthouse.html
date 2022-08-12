@@ -90,7 +90,7 @@
  var stopwatchSoundslam = document.getElementById('horrorSoundslam');
         var opendoor = document.querySelector(".door");
         function open_door() {
-            if(opendoor.style.animation == "none"){
+            if(opendoor.style.animation = "none"){
             opendoor.style.animation = "doormovement 3.5s linear";
             opendoor.style.animationFillMode = "both";
             stopwatchSound.play();
@@ -102,7 +102,7 @@
         var opendoor = document.querySelector(".door");
         
         function close_door() {
-            if(opendoor.style.animation == "doormovement 3.5s linear"){
+            if(opendoor.style.animation = "doormovement 3.5s linear"){
             opendoor.style.animation = "none";
              stopwatchSound.pause(); 
             stopwatchSound.currentTime = 0;
