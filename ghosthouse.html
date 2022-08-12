@@ -54,7 +54,7 @@
     <br><br>
     <div class="container-fluid" style="position:relative;">
         <div class="wall"></div>
-        <span class="bell" onclick="open_door(), playHorror();"><i class="fa fa-bell" aria-hidden="true"></i></span>
+        <span class="bell" onclick="open_door(); playHorror();"><i class="fa fa-bell" aria-hidden="true"></i></span>
 
         <div class="room"></div>
         <div class="doorframe"></div>
@@ -87,20 +87,20 @@
  var stopwatchSound = document.getElementById('horrorSound');
 
 function playHorror() {
-  if (!stopwatch.classList.contains('active')) {
-    stopwatch.classList.add('active');
     stopwatchSound.play();
   }
-}, false);
+function stopHorror() {
+    stopwatchSound.stop();
+  }
 
     </script>
     
     </div>
     <div class="my-btn">
     <button type="button" class="btn"
-    onclick='open_door()'>Open the door</button>
+    onclick='open_door(); playHorror();'>Open the door</button>
 <button type="button" class="btn closed"
-    onclick='close_door()'>Close the door</button>
+    onclick='close_door(); stopHorror();'>Close the door</button>
     </div>
     <div class="container" style="position:relative;">
         <p class="hello display-4">here is wooden house.. would you like to go inside? ring the bell icon... </p>
