@@ -45,6 +45,7 @@
     background-size: cover;
     transform-origin:right;
   transition: transform .45s;
+    animation:none;
   animation-fill-mode: forwards;
 }
 .doorframe{
