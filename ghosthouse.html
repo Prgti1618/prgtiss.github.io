@@ -54,7 +54,7 @@
     <br><br>
     <div class="container-fluid" style="position:relative;">
         <div class="wall"></div>
-        <span class="bell" onclick="open_door(); playHorror();"><i class="fa fa-bell" aria-hidden="true"></i></span>
+        <span class="bell" onclick="open_door();"><i class="fa fa-bell" aria-hidden="true"></i></span>
 
         <div class="room"></div>
         <div class="doorframe"></div>
@@ -73,18 +73,6 @@
     
 
     <script>
-//         var opendoor = document.querySelector(".door");
-//         function open_door() {
-//             opendoor.style.animation = "doormovement 3.5s linear";
-//             opendoor.style.animationFillMode = "both";
-//         }
-
-//         var opendoor = document.querySelector(".door");
-//         function close_door() {
-//             opendoor.style.animation = "none";
-            
-//         }
-        
         var stopwatch = document.querySelector('.closed');
  var stopwatchSound = document.getElementById('horrorSound');
  var stopwatchSoundslam = document.getElementById('horrorSoundslam');
@@ -112,26 +100,13 @@
             stopwatchSoundslam.currentTime = 0;
         }
         }
-        
-   
-//  var stopwatch = document.querySelector('.closed');
-//  var stopwatchSound = document.getElementById('horrorSound');
-//  var stopwatchSoundslam = document.getElementById('horrorSoundslam');
-
-// function playHorror() {
-//     stopwatchSound.play();
-//   }
-// function stopHorror() {
-//     stopwatchSound.pause();
-//      stopwatchSoundslam.play();
-//   }
 
     </script>
     
     </div>
     <div class="my-btn">
     <button type="button" class="btn"
-    onclick='open_door(); playHorror();'>Open the door</button>
+    onclick='open_door();'>Open the door</button>
 <button type="button" class="btn closed"
     onclick='close_door(); stopHorror();'>Close the door</button>
     </div>
@@ -161,9 +136,9 @@
 <!-- buttons for on/off door and sound effect -->
  <div class="my-btn">
     <button type="button" class="btn"
-    onclick='open_door(); playHorror();'>Open the door</button>
+    onclick='open_door();'>Open the door</button>
 <button type="button" class="btn closed"
-    onclick='close_door(); stopHorror();'>Close the door</button>
+    onclick='close_door();'>Close the door</button>
     </div>
 </body>   
 
@@ -175,31 +150,35 @@
         <code>
 <pre class="container  code-ghost" style="font-size: 1.3em;">
 <xmp>
-<!-- to open/close door -->
-    <script>
+<!-- to open/close door and on/off sounds-->
+  <script>
+        var stopwatch = document.querySelector('.closed');
+ var stopwatchSound = document.getElementById('horrorSound');
+ var stopwatchSoundslam = document.getElementById('horrorSoundslam');
         var opendoor = document.querySelector(".door");
         function open_door() {
-            opendoor.style.animation = "doormovement 3s linear";
+            if(opendoor.style.animation = "none"){
+            opendoor.style.animation = "doormovement 3.5s linear";
             opendoor.style.animationFillMode = "both";
+            stopwatchSound.play();
+        }else{
+           stopwatchSound.pause();
+            stopwatchSound.currentTime = 0;
         }
-
+        }
         var opendoor = document.querySelector(".door");
-        function close_door() {
-            opendoor.style.animation = "none";
-            
-        }
         
-//   to on/off sound 
- var stopwatch = document.querySelector('.closed');
- var stopwatchSound = document.getElementById('horrorSound');
-
-function playHorror() {
-    stopwatchSound.play();
-  }
-function stopHorror() {
-    stopwatchSound.stop();
-  }
-
+        function close_door() {
+            if(opendoor.style.animation = "doormovement 3.5s linear"){
+            opendoor.style.animation = "none";
+             stopwatchSound.pause(); 
+            stopwatchSound.currentTime = 0;
+            stopwatchSoundslam.play();
+        }else{
+              stopwatchSoundslam.pause();
+            stopwatchSoundslam.currentTime = 0;
+        }
+        }
     </script>
 </xmp>
 </pre>
