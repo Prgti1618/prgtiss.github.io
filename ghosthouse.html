@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haunted house animation HTML CSS JavaScript</title>
+    <title>Scary door sound HTML CSS JavaScript</title>
     <meta name="description"
-        content="wooden haunted house animation by using HTML CSS and JavaScript complete code snippet">
+        content="wooden haunted house animation with scary door sound by using HTML CSS and JavaScript complete code snippet">
     <meta name="keywords"
-        content="haunted, ghost, ghost house, haunted house, haunted house animation, haunted house html css, haunted house animation code snippet, haunted house html css js code snippet">
+        content=" scary door sound, add sound in css animation, haunted, ghost, ghost house, haunted house, haunted house animation, haunted house html css, haunted house animation code snippet, haunted house html css js code snippet">
     <meta name="author" content="Pragati Ghanekar">
     <link rel="stylesheet" href="soon.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -45,12 +45,12 @@
     <nav aria-label="breadcrumb" class="crumb bg-transperent">
         <ol class="breadcrumb justify-content-center">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Haunted house animation HTML CSS JS code snippet</li>
+            <li class="breadcrumb-item active" aria-current="page"> Scary door sound HTML CSS JS code snippet</li>
         </ol>
     </nav>
     <h1 class="text-center" style="color:grey; padding-right:20px; padding-left:20px;">Haunted house animation by using HTML and CSS and JS.
     </h1>
-    <p class="text-center">here is a animation of wooden haunted house by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
+    <p class="text-center">here is a animation of wooden haunted house and it's scary sound of door by <a href="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder</a>. </p>
     <br><br>
     <div class="container-fluid" style="position:relative;">
         <div class="wall"></div>
@@ -109,33 +109,63 @@ function stopHorror() {
 <pre class="container code-ghost" >
 <xmp>
     <body class="ghost_body">
-    <div class="container-fluid" style="position:relative;">   
-    <div class="wall"></div>
-    <span class="bell" onclick="open_door()"><i class="fa fa-bell" aria-hidden="true"></i></span>
-    
-    <div class="room"></div> 
-    <div class="doorframe"></div>
-    <div class="door"></div>
-    
-    <div class="room2"></div> 
-    <div class="windowframe"></div>
-    <div class="windowdoor"></div>
+   <div class="container-fluid" style="position:relative;">
+        <div class="wall"></div>
+        <span class="bell" onclick="open_door(); playHorror();"><i class="fa fa-bell" aria-hidden="true"></i></span>
+
+        <div class="room"></div>
+        <div class="doorframe"></div>
+        <div class="door">
+         <audio id="horrorSound" src="https://prgtifreecoder.com/horror.mp3" preload="auto">
+    Your browser does not support the <code>audio</code> element.
+  </audio>
+        </div>
+
+        <div class="room2"></div>
+        <div class="windowframe"></div>
+        <div class="windowdoor"></div>
+        
+<!-- buttons for on/off door and sound effect -->
+ <div class="my-btn">
+    <button type="button" class="btn"
+    onclick='open_door(); playHorror();'>Open the door</button>
+<button type="button" class="btn closed"
+    onclick='close_door(); stopHorror();'>Close the door</button>
     </div>
-</body>    
+</body>   
+
 </xmp>
 </pre>
 </code>
         <br>
-        <p>now we will open the door with JavaScript code, see the below JS code:</p>
+        <p>now we will open the door with JavaScript code, here we'll see how to add sound (audio) in css animation. see the below JS code:</p>
         <code>
 <pre class="container  code-ghost" style="font-size: 1.3em;">
 <xmp>
+<!-- to open/close door -->
     <script>
         var opendoor = document.querySelector(".door");
         function open_door() {
-            opendoor.style.animation = "doormovement 5s linear";
+            opendoor.style.animation = "doormovement 3s linear";
             opendoor.style.animationFillMode = "both";
         }
+
+        var opendoor = document.querySelector(".door");
+        function close_door() {
+            opendoor.style.animation = "none";
+            
+        }
+        
+//   to on/off sound 
+ var stopwatch = document.querySelector('.closed');
+ var stopwatchSound = document.getElementById('horrorSound');
+
+function playHorror() {
+    stopwatchSound.play();
+  }
+function stopHorror() {
+    stopwatchSound.stop();
+  }
 
     </script>
 </xmp>
