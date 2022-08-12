@@ -101,7 +101,8 @@
         function close_door() {
             if(opendoor.style.animation = "doormovement 3.5s linear"){
             opendoor.style.animation = "none";
-             stopwatchSound.pause();
+             stopwatchSound.pause(); 
+            stopwatchSound.currentTime = 0
             stopwatchSoundslam.play();
         }false;
         }
