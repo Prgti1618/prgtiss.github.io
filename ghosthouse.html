@@ -81,6 +81,17 @@
             opendoor.style.animation = "none";
             
         }
+        
+       var playBtn = document.querySelector('.bell'),
+  stopwatch = document.querySelector('.closed'),
+  stopwatchSound = document.getElementById('horrorSound');
+
+playBtn.addEventListener('click', function() {
+  if (!stopwatch.classList.contains('active')) {
+    stopwatch.classList.add('active');
+    stopwatchSound.play();
+  }
+}, false);
 
     </script>
     
@@ -88,7 +99,7 @@
     <div class="my-btn">
     <button type="button" class="btn"
     onclick='open_door()'>Open the door</button>
-<button type="button" class="btn"
+<button type="button" class="btn closed"
     onclick='close_door()'>Close the door</button>
     </div>
     <div class="container" style="position:relative;">
