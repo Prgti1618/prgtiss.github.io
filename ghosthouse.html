@@ -96,6 +96,7 @@
             stopwatchSound.play();
         }else{
              stopwatchSound.pause();
+             stopwatchSound.currentTime = 0;
         }
         }
         var opendoor = document.querySelector(".door");
@@ -104,9 +105,12 @@
             if(opendoor.style.animation = "doormovement 3.5s linear"){
             opendoor.style.animation = "none";
              stopwatchSound.pause(); 
-            stopwatchSound.currentTime = 0
+            stopwatchSound.currentTime = 0;
             stopwatchSoundslam.play();
-        }false;
+        }else{
+             stopwatchSoundslam.pause();
+             stopwatchSoundslam.currentTime = 0;
+        }
         }
         
    
