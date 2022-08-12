@@ -295,8 +295,9 @@ animation: ray1 4s ease-in-out infinite;
         }
 .credit .nameplate{
             position: relative;
-            left:50%;
-            transform: translateX(-50%);
+            margin:0 auto;
+            left:0;
+            right:0;
            
         }
         .button-credit a i.fa{
