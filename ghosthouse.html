@@ -54,7 +54,7 @@
     <br><br>
     <div class="container-fluid" style="position:relative;">
         <div class="wall"></div>
-        <span class="bell" onclick="open_door()"><i class="fa fa-bell" aria-hidden="true"></i></span>
+        <span class="bell" onclick="open_door(), playHorror();"><i class="fa fa-bell" aria-hidden="true"></i></span>
 
         <div class="room"></div>
         <div class="doorframe"></div>
@@ -82,11 +82,11 @@
             
         }
         
-       var playBtn = document.querySelector('.bell'),
-  stopwatch = document.querySelector('.closed'),
-  stopwatchSound = document.getElementById('horrorSound');
+   
+ var stopwatch = document.querySelector('.closed');
+ var stopwatchSound = document.getElementById('horrorSound');
 
-playBtn.addEventListener('click', function() {
+function playHorror() {
   if (!stopwatch.classList.contains('active')) {
     stopwatch.classList.add('active');
     stopwatchSound.play();
