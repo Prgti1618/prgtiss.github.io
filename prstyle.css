@@ -158,13 +158,13 @@ footer .navbar_bottom .mali:active{
     }
       
 
-.sidenav .logo h1, h6{
+.sidenav .logo h2, h6{
       text-align: center;
       position: relative;
       top: 30%;
   }
 
-  .sidenav .logo h1{
+  .sidenav .logo h2{
     font-family: 'Merienda', cursive;
     text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
@@ -197,13 +197,13 @@ footer .logo_last{
   }
     
 
-footer .logo_last h1, h6{
+footer .logo_last h2, h6{
     text-align: center;
     position: relative;
     top: 30%;
 }
 
-footer .logo_last h1{
+footer .logo_last h2{
   font-family: 'Merienda', cursive;
   text-shadow: 0 1px 0 #ccc,
              0 2px 0 #c9c9c9,
@@ -235,7 +235,7 @@ footer .logo_last{
   }
     
 
-.tube_body .logo_last h1, h6{
+.tube_body .logo_last h2, h6{
     text-align: center;
     position: relative;
     top: 30%;
@@ -245,7 +245,7 @@ footer .logo_last{
     bottom: 0;
 }
 
-.tube_body .logo_last h1{
+.tube_body .logo_last h2{
   font-family: 'Merienda', cursive;
   text-shadow: 0 1px 0 #ccc,
              0 2px 0 #c9c9c9,
