@@ -911,7 +911,7 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
 .amazon_ad{
     position:absolute;
     width:100vw;
-    height:auto;
+    height:300px;
 }
 
 /* heart eye smiley */
