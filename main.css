@@ -913,6 +913,8 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
     width: 90vw;
     background-color:white;
     position:absolute;
+    left:50%;
+    transform:translateX(-50%);
 }
 
 .btnshop{
@@ -924,6 +926,7 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
     font-size: 20px;
     border-top-left-radius: 90px;
    border-bottom-right-radius: 90px;
+    margin-top:50px;
 }
 .btnshop:hover{
    background-color: rgb(0, 77, 77);
