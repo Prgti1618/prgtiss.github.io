@@ -947,10 +947,14 @@ font-size: 40px;
   animation: heiya 1s ease-in-out infinite;
 }
 .onediv{
-    width: 28vw;
+    position:relative;
+    left:50px;
+    width: 25vw;
     display: inline-block;
 }
 .twodiv{
+    position:relative;
+    right:50px;
     width: 60vw;
     float: right;
     text-align: center;
