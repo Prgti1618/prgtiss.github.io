@@ -907,11 +907,78 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
     padding-left:20px;
 }
 
-/* amazon ad */
-.amazon_ad{
-    position:relative;
-    width:100vw;
-    height:300px;
+/* shopping ad */
+.container-shop{
+    height: 400px;
+    width: 90vw;
+}
+
+.btnshop{
+    padding: 20px 40px;
+    background-color: teal;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: none;
+    font-size: 20px;
+    border-top-left-radius: 90px;
+   border-bottom-right-radius: 90px;
+}
+.btnshop:hover{
+   background-color: rgb(0, 77, 77);
+   
+}
+.btnshop:active{
+    box-shadow: none;
+    
+}
+
+.twodiv h3{
+   
+font-size: 40px;
+  float: right;
+  text-shadow: .1em .1em 0 rgb(236, 238, 239);
+  color: crimson;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: heiya 1s ease-in-out infinite;
+}
+.onediv{
+    width: 30vw;
+    display: inline-block;
+}
+.twodiv{
+    width: 60vw;
+    float: right;
+    text-align: center;
+
+}
+.onediv img{
+    width: 100%;
+    height: 100%;
+    
+}
+@keyframes heiya{
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+       transform: translateY(-20px);
+       
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+@media screen and (max-width:800px){
+    .onediv{
+    width: 100%;
+    float: none;
+    display: flex;
+    
+    }
+    .twodiv{
+    width: 90vw;
+    float: none;
+    }
 }
 
 /* heart eye smiley */
