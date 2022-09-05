@@ -911,6 +911,7 @@ box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
 .container-shop{
     height: 400px;
     width: 90vw;
+    background-color:white;
 }
 
 .btnshop{
@@ -949,7 +950,7 @@ font-size: 40px;
     width: 60vw;
     float: right;
     text-align: center;
-
+    padding-top:50px;
 }
 .onediv img{
     width: 100%;
