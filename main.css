@@ -1018,6 +1018,11 @@ a.btnshop{
     }
 }
 
+iframe .shop-ad-iframe{
+    object-fit:contain;
+    width:100%;
+    height:100%;
+}
 
 /* heart eye smiley */
 .container.lantern-container.smiley{
