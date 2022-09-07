@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100vw;
+   
+}
+iframe{
+    position: relative;
+    transform: translateX(-50%, -50%);
+    margin-top: 50px;
+    
+}
+.linesss{
+background-color: crimson;
+color: white;
+width: 100vw;
+}
+.linesss a{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
