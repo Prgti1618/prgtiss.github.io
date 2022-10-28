@@ -7,13 +7,10 @@
 
 .coming-soon-body{
     font-family: 'Open Sans', sans-serif;
-    width: 110vw;
-   background-color:black;
+   width:100vw;
 }
 .new-soon{
   position: relative;
-  z-index:0;
-  background-color:black;  
     width:100vw;
 }
 .sky_bg{
