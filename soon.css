@@ -28,7 +28,9 @@
     overflow-X: hidden;
     background-color: black;
 }
-
+.tube-body .complete-container{
+    background-image: none;
+}
 .door{
     position:absolute;
     top:5vw;
