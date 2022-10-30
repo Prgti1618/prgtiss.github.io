@@ -10,7 +10,7 @@
     width:100vw;
     height:auto;
 }
-.container-fluid{
+.ghost_body .container-fluid{
     position: relative;
     margin: 0;
     padding: 0;
@@ -24,13 +24,13 @@
    z-index: 99999;
 }
 .ghost_body{
-    width: 100vw;
+    width: 90vw;
     overflow-X: hidden;
-    background-color: black;
+/*     background-color: black; */
 }
-.tube-body .complete-container{
+/* .tube-body .complete-container{
     background-image: none;
-}
+} */
 .door{
     position:absolute;
     top:5vw;
