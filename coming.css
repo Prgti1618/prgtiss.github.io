@@ -8,6 +8,7 @@
 .coming-soon-body{
     font-family: 'Open Sans', sans-serif;
    width:100vw;
+    position:relative;
 }
 .new-soon{
   position: relative;
