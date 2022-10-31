@@ -10,6 +10,9 @@
     width: 100vw;
 
 }
+.tube-body{
+    width:90vw;
+}
 .new-soon{
   position: relative;
 }
