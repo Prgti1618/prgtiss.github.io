@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-video{
+    background-color: rgb(127, 189, 189);
+}
+.container-fluid{
+    margin-top: 10px;
+    width: 90vw;
+    background-image: ;
+}
+.container{
+    width: 90vw;
+    color: red;
+    text-align: center;
+   font-weight: 600;
+   font-size: 35px;
+   padding: 50px;
+   /* border: 2px red solid; */
+   background-color: aliceblue;
+   box-shadow: 10px -11px 5px 1px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 10px -11px 5px 1px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 10px -11px 5px 1px rgba(0,0,0,0.75) inset;
+}
+.fa-youtube-play{
+    color: red;
+    /* font-size: 10px; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+   
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.container h1{
+    color: teal;
+}
+.container iframe{
+    width: 70vw;
+    height: 500px;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (max-width:700px){
+    .container iframe{
+        width: 80vw;
+        height: 300px;
+        object-fit: fill;
+    }
+}
+
+.footer{
+    width: 100vw;
+    height: 1800px;
+    background-color: white;
+}
+.copyright_info{
+    text-align: center;
+    color: #095044;
+}
+.copyright_info .fa{
+    color:#095044;
+}
+.credit{
+    text-align: center;
+   margin-bottom: 10px;
+}
+.credit a{
+    color:#095044;
+    margin-top: 50px;
+}
+
+.credit .socialmedia .fa{
+    color: #095044;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.credit .socialmedia .fa:hover{
+    color: white;
+}
+.credit .nameplate{
+    margin-right: 200px;
+   
+}
+.nameplate{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    height: 70px;
+    padding: 20px;
+    color: rgb(252, 242, 244);
+    font-size:20px;
+     border-radius: 15px 50px; 
+     font-family: 'Merienda One', cursive;
+     text-shadow:0 0 10px black;
+     animation: colorchange 3s ease-in-out infinite;
+     background: linear-gradient(90deg, rgb(60, 137, 130) 0%, rgb(17, 65, 68) 33%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.loader {
+  border: 16px solid transparent;
+  border-radius:50%;
+  border-top: 16px solid rgb(1, 82, 82);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  z-index: 99999;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-40%, -45%);
+ 
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
