@@ -24,6 +24,9 @@
 -webkit-box-shadow: 10px -11px 5px 1px rgba(0,0,0,0.75) inset;
 -moz-box-shadow: 10px -11px 5px 1px rgba(0,0,0,0.75) inset;
 }
+.container.second{
+    margin-top:10px;
+}
 .fa-youtube-play{
     color: red;
     /* font-size: 10px; */
@@ -50,10 +53,13 @@
 }
 @media screen and (max-width:700px){
     .container iframe{
-        width: 80vw;
+        width: 100vw;
         height: 300px;
         object-fit: fill;
     }
+    .container.second{
+     width: 100vw;
+}
 }
 
 .footer{
