@@ -5,6 +5,7 @@
 }
 .body-video{
     background-color: rgb(127, 189, 189);
+    width:100vw;
 }
 .container-fluid{
     margin-top: 10px;
