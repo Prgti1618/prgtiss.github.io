@@ -1486,3 +1486,7 @@ footer{
 .button-credit{
     padding-bottom: 100px;
 }
+.container.second{
+	width:100%;
+}
+	
