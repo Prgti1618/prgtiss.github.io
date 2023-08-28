@@ -2,7 +2,192 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 -<url>
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>Cycling Animation | HTML CSS Animation | Learn Code Free Online</video:title>
+
+<video:description>Learn Cycling Animation with HTML CSS Animation by Learn Code Free Online </video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/gqy8wwxCKR8</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/gqy8wwxCKR8/hqdefault.jpg</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>Learn HTML, CSS and JavaScript animations with complete source code</video:title>
+
+<video:description>Learn HTML, CSS and JavaScript animations with complete source code </video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/FsACh10ChDM</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/FsACh10ChDM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLAf-N2Q-6YwVHYzbuNFAQqGpljsHw</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>Blinking stars in beautiful night sky animation with JavaScript and CSS </video:title>
+
+<video:description>learn Blinking stars in beautiful night sky animation with JavaScript and CSS </video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/F6j5vZF6PVY</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/F6j5vZF6PVY/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGEsgUChlMA8=\u0026rs=AOn4CLAzg0hT1Km0Co5mqv3b1zBDb4BoTw</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>How to draw SVG image using SVG path editor | easy SVG image generator </video:title>
+
+<video:description>learn How to draw SVG image using SVG path editor easy, SVG image generator </video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/NveMr8dFHrs</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/NveMr8dFHrs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLCZQ4umu53B7qRo_bcioDJdk9NRTg</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>Sleeping moon animation using HTML and CSS only</video:title>
+
+<video:description>learn Sleeping moon animation using HTML and CSS only</video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/AScs2zdlb5k</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/AScs2zdlb5k/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLD4YBFmTArNEGsKu7AAKaFxRX47kA</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>login and signup form on single page using html, CSS and JS</video:title>
+
+<video:description>learn login and signup form on single page using html, CSS and JS</video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/U1Tql67IH4o</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/U1Tql67IH4o/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLCzijan91Ik1qHDQseLF_rDBNwG3g</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>Video play pause button by using html css and JavaScript</video:title>
+
+<video:description>learn Video play pause button by using html css and JavaScript</video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/swNpk3cE2aE</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/swNpk3cE2aE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLDceIiU6qFqX-coW4YzAl93MCAXfA</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
+-<video:video>
+
+<video:title>How to display webpage or YouTube video on HTML</video:title>
+
+<video:description>learn to display webpage or YouTube video on HTML</video:description>
+
+<video:player_loc allow_embed="yes">https://youtu.be/BB29nQhY20E</video:player_loc>
+
+<video:thumbnail_loc>https://i.ytimg.com/vi/BB29nQhY20E/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLB8ZetjkSxIyircaTUPkqag5VCNHQ</video:thumbnail_loc>
+
+<video:family_friendly>yes</video:family_friendly>
+
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
+
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
+
+<video:live>no</video:live>
+
+</video:video>
+
+</url>
+       
+-<url>
+<loc>https://learncodefreeonline.com/video.html</loc>
 -<video:video>
 
 <video:title>Mouth, nose and animated eyes by HTML and CSS and javascript</video:title>
@@ -15,9 +200,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -27,7 +212,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -42,9 +227,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online</video:uploader>
 
 <video:live>no</video:live>
 
@@ -54,7 +239,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -69,9 +254,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -81,7 +266,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -96,9 +281,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -108,7 +293,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -123,9 +308,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online</video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -135,7 +320,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -150,9 +335,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -162,7 +347,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -177,9 +362,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online</video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online</video:uploader>
 
 <video:live>no</video:live>
 
@@ -190,9 +375,9 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -207,9 +392,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -220,7 +405,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -235,9 +420,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -248,7 +433,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -263,9 +448,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -276,7 +461,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -291,9 +476,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -304,7 +489,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -319,9 +504,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -332,7 +517,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -347,9 +532,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -360,7 +545,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -375,9 +560,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online</video:uploader>
 
 <video:live>no</video:live>
 
@@ -388,7 +573,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -403,9 +588,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online</video:uploader>
 
 <video:live>no</video:live>
 
@@ -416,7 +601,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -431,9 +616,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online</video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online</video:uploader>
 
 <video:live>no</video:live>
 
@@ -444,7 +629,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -459,9 +644,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -472,7 +657,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -487,9 +672,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -500,7 +685,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -515,9 +700,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -528,7 +713,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -543,9 +728,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -556,7 +741,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -571,9 +756,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -584,7 +769,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -599,9 +784,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -612,7 +797,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -627,9 +812,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online </video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online </video:uploader>
 
 <video:live>no</video:live>
 
@@ -640,7 +825,7 @@
 
 -<url>
 
-<loc>https://prgtifreecoder.com/video.html</loc>
+<loc>https://learncodefreeonline.com/video.html</loc>
 
 
 -<video:video>
@@ -655,9 +840,9 @@
 
 <video:family_friendly>yes</video:family_friendly>
 
-<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">PRGTI free coder </video:uploader>
+<video:uploader info="https://www.youtube.com/channel/UCZImzuN1HmuZe9MSvmaMT2Q">Learn code free online</video:uploader>
 
-<video:uploader info="https://prgtifreecoder.com">PRGTI free coder source codes </video:uploader>
+<video:uploader info="https://learncodefreeonline.com/">Learn code free online</video:uploader>
 
 <video:live>no</video:live>
 
