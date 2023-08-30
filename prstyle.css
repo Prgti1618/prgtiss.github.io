@@ -758,7 +758,7 @@ hyphens: auto;
    }
 }
 
-span.sub-subscribe{
+.coffee span.sub-subscribe{
 position:absolute;
 padding:5px 5px;
 background-color:red;
