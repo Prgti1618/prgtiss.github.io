@@ -1495,3 +1495,9 @@ iframe .shop-ad-iframe{
 /*        transform: translateX(0%);   */
     }
 }
+span.sub-subscribe{
+position:absolute;
+padding:5px 5px;
+background-color:red;
+ border-radius: 15px 0px; 
+}
