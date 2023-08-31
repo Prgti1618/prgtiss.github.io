@@ -1293,6 +1293,18 @@ iframe .shop-ad-iframe{
 }
   
 }
+@media screen and (max-width:564px){
+    header{
+        height: 950px;
+        width:100%;
+    }
+    #wave{
+        position:relative;
+        top: -90px;
+        z-index: 1;
+    }
+  
+}
 @media screen and (max-width:540px){
     .page-right{
         width:450px;
