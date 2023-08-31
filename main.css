@@ -1495,14 +1495,44 @@ iframe .shop-ad-iframe{
 /*        transform: translateX(0%);   */
     }
 }
-.sub-subscribe{
-position:relative;
-background: pink;
-animation: redness 2s linear infinite;
+button.youtubecover{
+    position: absolute;
+    margin: 0 auto; 
+    padding: 25px 40px;
+    border-radius: 15px;
+  z-index: 0;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background: rgb(43,111,77);
+background: linear-gradient(0deg, rgba(43,111,77,1) 0%, rgba(15,164,95,1) 24%, rgba(17,179,117,1) 69%, rgba(60,255,187,1) 100%);
 }
- @keyframes redness{
- 50%{
- background: tomato;
- border:0;
- }
- }
+
+button.youtubecover:hover{
+    outline: none;
+    background: rgb(107,237,177);
+background: linear-gradient(0deg, rgba(107,237,177,1) 0%, rgba(17,179,117,1) 32%, rgba(15,164,95,1) 80%, rgba(43,111,77,1) 100%);
+}
+
+button.youtubecover:focus{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: 0;
+    background: rgb(65,189,127);
+background: radial-gradient(circle, rgba(65,189,127,1) 42%, rgba(36,96,66,1) 100%);
+}
+
+button.youtubecover::after{
+    content: '';
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   width: 20px;
+   height: 20px;
+   clip-path: polygon(0 0, 0% 100%, 100% 52%);
+   background-color: rgb(255, 255, 255);
+   z-index: 99999;
+  
+}
+
+
+
