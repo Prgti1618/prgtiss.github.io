@@ -1150,7 +1150,8 @@ iframe .shop-ad-iframe{
         top: 0px;
         right: 300px;
         color: #095044;
-        font-size: 50px;
+        font-size: 20px;
+       
     }
     #navbarNavDropdown{
         background-color: black;
@@ -1172,10 +1173,10 @@ iframe .shop-ad-iframe{
 @media screen and (max-width:820px){
     span.navbar-toggler-icon{
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 100px;
+        right: 50px;
         color: #095044;
-        font-size: 50px;
+        font-size: 20px;
     }
     #navbarNavDropdown{
         background-color: black;
@@ -1250,11 +1251,11 @@ iframe .shop-ad-iframe{
       margin: 20px;
     }
     span.navbar-toggler-icon{
-        position: absolute;
-        top: 10px;
-        right: 10px;
+        position: relative;
+        top: 0px;
+        right: 20px;
         color: #095044;
-        font-size: 50px;
+        font-size: 20px;
     }
     #navbarNavDropdown{
         background-color: black;
@@ -1533,10 +1534,3 @@ button.youtubecover::after{
    z-index: 99999;
   
 }
-span.navbar-toggler-icon{
-        position: absolute;
-        top: 0px;
-        right: 300px;
-        color: #095044;
-        font-size: 50px;
-    }
