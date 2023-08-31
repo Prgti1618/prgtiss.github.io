@@ -1496,8 +1496,8 @@ iframe .shop-ad-iframe{
     }
 }
 button.youtubecover{
-    position: relative;
-    margin: 0 auto; 
+/*     position: relative;
+    margin: 0 auto;  */
     padding: 25px 40px;
     border-radius: 15px;
   z-index: 0;
@@ -1533,6 +1533,4 @@ button.youtubecover::after{
    z-index: 99999;
   
 }
-
-
 
