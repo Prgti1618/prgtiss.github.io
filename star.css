@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sky{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(3,3,48,1) 0%, rgba(0,0,0,1) 100%);
+}
+.night-sky{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.night-sky i.fa-solid.fa-asterisk{
+    text-shadow: 0px 0px 10px white;
+    animation:fade 1s linear infinite;
+}
+
+@keyframes fade{
+    0%,100%{
+        transform: scale(.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
