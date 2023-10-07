@@ -3,3 +3,5 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://learncodefreeonline.com/sitemap.xml
+sitemap: https://a284576.sitemaphosting6.com/4393492/sitemap_4393492.xml
+
