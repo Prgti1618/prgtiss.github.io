@@ -863,43 +863,33 @@ height:610px;
 }
 .terms_bottom{
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    
     text-align: center;
-    width: 70vw;
+    width: 90%;
     border: 2px solid rgb(19, 190, 125);
     color: rgb(196, 196, 196);
     margin-top: 30px;
-    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+   
 }
 
 .privacy_bottom{
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
-    width: 70vw;
+    width: 90%;
     color: rgb(196, 196, 196);
     margin-top: 30px;
     border: 2px solid rgb(19, 190, 125);
-    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 
 }
 .contact_bottom{
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    
     text-align: center;
-    width: 70vw;
+    width: 90%;
     color: rgb(196, 196, 196);
     margin-top: 30px;
     border: 2px solid rgb(19, 190, 125);
-    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+   
 
 }
 .so-media{
